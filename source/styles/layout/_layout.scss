@@ -1,0 +1,21 @@
+.l-container {
+  overflow: hidden; 
+}
+
+.l-container--base {
+  --pad-hz: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--pad-hz);
+  padding-left: var(--pad-hz);
+}
+
+.l-container--accent {
+  --border-thick: 1rem solid var(--color-off-black);
+  border-top: var(--border-thick); 
+  border-bottom: var(--border-thick);
+  
+  + .l-container--accent {
+    border-top: 0;
+  }
+}

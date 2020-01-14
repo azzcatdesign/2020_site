@@ -1,0 +1,54 @@
+.wrap--portfolio {
+  padding: 2rem 4rem;
+}
+
+// The grid area names:
+.kolcraft {
+  grid-area: kolcraft;
+}
+.fff {
+  grid-area: fff;
+}
+.wt_style_tiles {
+  grid-area: wt_style_tiles;
+}
+.wt_user_flows {
+  grid-area: wt_user_flows;
+}
+.wt_mockups {
+  grid-area: wt_mockups;
+}
+.cs_home {
+  grid-area: cs_home;
+}
+.cs_business {
+  grid-area: cs_business;
+}
+.cs_marketplace {
+  grid-area: cs_marketplace;
+}
+.es {
+  grid-area: es;
+}
+
+// Layout the grid
+.card {
+  margin-bottom: 2rem;
+}
+@include for-tablet-landscape-up {
+
+  .card {
+    margin-bottom: 0;
+  }
+
+  .wrap--cards {
+    display: grid;
+    grid-gap: 2rem 2rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "kolcraft kolcraft fff"
+      "kolcraft kolcraft wt_style_tiles"
+      "cs_home cs_business wt_style_tiles"
+      "cs_marketplace cs_marketplace es"
+      "wt_user_flows wt_mockups wt_mockups";
+  }
+}

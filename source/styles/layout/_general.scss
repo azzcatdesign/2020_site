@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all var(--timing) ease-in-out 0;
+}
+
+:focus {
+  outline-color: var(--color-accent);
+  outline-style: solid;
+  outline-width: medium;
+}
+
+body {
+  // remove some of normalize's settings
+  margin: 0;
+  padding: 0;
+
+  min-height: 100vh;  
+  background-color: var(--color-light);
+}
+
+img {
+  max-width: 100%;
+}
+
+a:not(.work-item__link) {
+  text-decoration: none;
+  color: var(--color-accent-link);
+
+  &:focus,
+  &:hover {   
+    color: var(--color-off-white);
+    background-color: var(--color-body-text);    
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

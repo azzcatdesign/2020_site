@@ -1,0 +1,113 @@
+// Fonts from Typekit/Adobe
+@import url("https://use.typekit.net/wvw4aci.css");
+
+:root {
+  // Grays, as % of white
+  --black: hsl(0, 0%, 0%);
+  --percent-3: hsl(0, 0%, 3%);
+  --percent-5: hsl(0, 0%, 5%);
+  --percent-10: hsl(0, 0%, 10%);
+  --percent-20: hsl(0, 0%, 20%);
+  --percent-30: hsl(0, 0%, 30%);
+  --percent-40: hsl(0, 0%, 40%);
+  --percent-50: hsl(0, 0%, 50%);
+  --percent-60: hsl(0, 0%, 60%);
+  --percent-70: hsl(0, 0%, 70%);
+  --percent-80: hsl(0, 0%, 80%);
+  --percent-90: hsl(0, 0%, 90%);
+  --percent-95: hsl(0, 0%, 95%);
+  --percent-97: hsl(0, 0%, 97%);
+  --white: hsl(0, 0%, 100%);
+
+  // colors
+  --color-off-white: var(--percent-97);
+  --color-off-black: var(--percent-3);
+  --color-accent: hsl(340, 90%, 50%);  // ~red
+  --color-light: hsl(34, 64%, 90%);  // ~beige
+  --color-body-text: var(--percent-3);
+  --color-head-text: var(--percent-20);
+  --color-body-bg: var(--color-light);
+  --color-accent-link: hsl(340, 90%, 36%); // AAA
+  --color-accent-link-light: hsl(340, 90%, 55%); // AA large 
+
+  // font family
+  --font-body: adelle, serif;
+  --font-head: var(--font-body);
+  --font-mono: prestige-elite-std, monospace;
+  --font-slab: quatro-slab, serif;
+
+  // font weight
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-heavy: 900;
+  
+  // letter spacing
+  --letter-spacing-tight: -.1em;
+  --letter-spacing-slight: .075em;
+  --letter-spacing-loose: .125em;
+    
+  // line heights  
+  --line-height-xs: 1;
+  --line-height-sm: 1.33;
+  --line-height-md: 1.5;
+  --line-height-lg: 1.75;
+  --line-height-xl: 2;
+  
+  --line-height-base: var(--line-height-lg);
+  
+  --body-line-height: var(--line-height-base);
+  --heading-line-height: var(--line-height-sm);
+
+  // transition
+  --timing: .3s;
+
+  // z-index
+  --z-minus: -1;
+  --z-normal: 0;
+  --z-plus: 1;
+  --z-high: 10;
+  --z-nav: 100;
+  --z-modal: 500;
+  --z-apex: 1000;
+    
+  // body font size
+  // 16px = 1em
+  --text-base: 1em;
+
+  // type scale for small, see media queries below for larger breakpoints
+  --text-scale-ratio: 1.2;
+
+  // See my codepen for full exploration: https://codepen.io/azzcatdesign/pen/a4f8142b96ed47f1628bddbb997884e7
+  
+  // Small sizes are too small for accessibility, based on ratio. So we're going to set sm at 14px and xs at 12px.
+  --text-xs: calc(var(--text-base) * .75);
+  --text-sm: calc(var(--text-base) * .875);
+ 
+  --text-md: calc(var(--text-base) * var(--text-scale-ratio));
+  --text-lg: calc(var(--text-md) * var(--text-scale-ratio));
+  --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
+  --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
+  --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
+  
+  /* RESPONSIVE TYPE */
+  @media (min-width: 1000px) {
+    --text-base: 1.125em;  // 18px
+    // greater differentiation between sizes at larger viewport
+    --text-scale-ratio: 1.4;
+  }
+
+  // @media (min-width: 1000px) {
+  //   // larger base size
+  //   //--text-base: 1.25em;  // 20px
+  //   --text-base: 1.375em;  // 22px
+  // }
+
+  @media (min-width: 1440px) {
+    // larger base size
+    //--text-base: 1.375em;  // 22px
+    --text-base: 1.5em;  // 24px
+  }   
+}

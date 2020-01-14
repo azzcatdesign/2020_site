@@ -1,0 +1,72 @@
+@mixin button-bg($bg) {
+  background: $bg;
+
+  &:hover {
+    background:darken($bg, 8%);
+    transition: all 0.3s ease;
+  }
+
+  &:active {
+    background:darken($bg, 25%);
+  }
+}
+
+.button {
+  @extend %tac;
+  @extend %uc;
+
+  padding: 2rem;
+  color: var(--white);
+  font-family: var(--header-font);
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  line-height: 1;
+  border: none;
+  border-radius: .25rem;
+}
+
+// Use your variable color(s) to replace $bg
+// and specify type of .btn-XXX
+.button--green {
+  @include button-bg($logo-green);
+  color: var(--percent-40);
+
+  &:hover {
+    color: var(--white);
+  }
+}
+
+.button--green-dark {
+  @include button-bg($logo-green-dark);
+  color: var(--dusty-blue-violet-dark);
+
+  &:hover {
+    color: var(--white);
+  }
+}
+
+.button--small {
+  padding: 1rem;
+  font-size: 1em;
+}
+
+// scrollToTop button
+.scroll-to-top {
+  width: 5rem;
+  height: 5rem;
+  display: none;
+  background: $logo_green;
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  z-index: 10000;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  svg {
+    position: relative;
+    top: -1.5rem;
+    left: -1rem;
+  }
+}

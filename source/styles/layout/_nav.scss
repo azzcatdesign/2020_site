@@ -1,0 +1,99 @@
+// the hamburger
+.menu__toggler {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+  top: 1rem;
+  right: 1rem;  
+  cursor: pointer;
+  background: var(--color-light); 
+}
+
+.menu__toggler span,
+.menu__toggler span::before,
+.menu__toggler span::after {
+  position: absolute;
+  content: '';
+  width: 28px;
+  height: 3px;
+  background-color: var(--color-off-black);
+  transition: 500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.menu__toggler span::before {
+  top: -8px;
+}
+
+.menu__toggler span::after {
+  top: 8px;
+}
+
+.menu__toggler.active > span {
+  background: transparent;
+}
+
+.menu__toggler.active > span::before, .menu__toggler.active > span::after {
+  background-color: var(--color-off-black);
+  top: 0;
+}
+
+.menu__toggler.active > span::before {
+  -webkit-transform: rotate(-225deg);
+          transform: rotate(-225deg);
+}
+
+.menu__toggler.active > span::after {
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+}
+
+.menu {
+  width: auto;
+  height: 100%;
+  position: fixed;
+  left: -100%;
+  z-index: 1000;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  transform: skew(-11deg);
+  transition: 300ms left cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.menu.active {
+  left: 1.5rem;
+}
+
+.menu a {
+  padding: 1rem 3rem;
+  border-bottom: 3px solid var(--white);
+  display: block;
+  font-family: var(--font-slab);
+  font-style: italic;
+  letter-spacing: var(--letter-spacing-slight);
+  font-weight: var(--font-weight-regular);
+  color: white;
+  text-decoration: none;
+  background: var(--color-off-black);
+  
+  &:last-child {
+    border-bottom: none;
+  }
+  
+  >span {
+    display: inline-block;
+    // unskew text
+    transform: skew(11deg);
+  }
+  
+  &:hover,
+  &:focus {
+    background-color: var(--color-accent);
+    transition: 300ms cubic-bezier(0.77, 0, 0.175, 1);
+  }
+}
