@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "31934",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/.gitignore",
+		"oF": 0
+		},
 	"/.vscode/settings.json": {
 		"ft": 524288,
 		"oA": 0,
@@ -100,7 +108,7 @@
 		"oAP": "/dist/images/cat_2012.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/cat_2018.jpg": {
@@ -122,7 +130,7 @@
 		"oAP": "/dist/images/cat_sedona.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/cat_sedona_headshot.jpg": {
@@ -133,7 +141,7 @@
 		"oAP": "/dist/images/cat_sedona_headshot.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/channel_guide_grid.pdf": {
@@ -152,7 +160,7 @@
 		"oAP": "/dist/images/cs_business_sketch_grab.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/cs_home_partial.jpg": {
@@ -163,7 +171,7 @@
 		"oAP": "/dist/images/cs_home_partial.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/cs_home_sketch_grab.jpg": {
@@ -174,7 +182,7 @@
 		"oAP": "/dist/images/cs_home_sketch_grab.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/cs_marketplace_sketch_grab.jpg": {
@@ -185,7 +193,7 @@
 		"oAP": "/dist/images/cs_marketplace_sketch_grab.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/cs_wf_hf_business_header_options_01.jpg": {
@@ -207,7 +215,7 @@
 		"oAP": "/dist/images/cs_wf_hf_home_02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/cs_wf_hf_investor_landing_03.jpg": {
@@ -218,7 +226,7 @@
 		"oAP": "/dist/images/cs_wf_hf_investor_landing_03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/cs_wf_hf_tabs_options_01.jpg": {
@@ -229,7 +237,7 @@
 		"oAP": "/dist/images/cs_wf_hf_tabs_options_01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/cs_wf_lf_inv_resource_01.jpg": {
@@ -240,7 +248,7 @@
 		"oAP": "/dist/images/cs_wf_lf_inv_resource_01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/cs_wf_lf_investor_landing_02.jpg": {
@@ -262,7 +270,7 @@
 		"oAP": "/dist/images/cs_wf_mf_investor_ctr_01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/cs_wf_mf_investor_landing_01.jpg": {
@@ -273,7 +281,7 @@
 		"oAP": "/dist/images/cs_wf_mf_investor_landing_01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/Developer_Mobile.pdf": {
@@ -303,7 +311,7 @@
 		"oAP": "/dist/images/es_web.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/es_window.jpg": {
@@ -314,7 +322,7 @@
 		"oAP": "/dist/images/es_window.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/EyeStyles_postcard.svg": {
@@ -357,7 +365,7 @@
 		"oAP": "/dist/images/fff_grab.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/kolcraft_crib.jpg": {
@@ -368,7 +376,7 @@
 		"oAP": "/dist/images/kolcraft_crib.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/logotype.svg": {
@@ -377,7 +385,7 @@
 		"oA": 0,
 		"oAP": "/dist/images/logotype.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -406,7 +414,7 @@
 		"oAP": "/dist/images/wt_admin_customize_features_competitions.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -417,7 +425,7 @@
 		"oAP": "/dist/images/wt_admin_wireframes_01.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -428,7 +436,7 @@
 		"oAP": "/dist/images/wt_medium_comps_02.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -439,7 +447,7 @@
 		"oAP": "/dist/images/wt_medium_comps_03.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -450,7 +458,7 @@
 		"oAP": "/dist/images/wt_mobile_comps_01.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -462,7 +470,7 @@
 		"oAP": "/dist/images/wt_mockups_grab.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/wt_style_grab.jpg": {
@@ -473,7 +481,7 @@
 		"oAP": "/dist/images/wt_style_grab.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/source/images/wt_style_tiles.png": {
@@ -483,7 +491,7 @@
 		"oAP": "/dist/images/wt_style_tiles.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -494,7 +502,7 @@
 		"oAP": "/dist/images/WT_User_Flow.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -980,7 +988,8 @@
 	"displayValue": "2020_site",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 600739274.96954095
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
