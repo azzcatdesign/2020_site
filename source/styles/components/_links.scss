@@ -1,72 +1,41 @@
-::focus {
-  outline-color: var(--link-color-normal);
-}
+// Add this class to links in paragraph
+.inline-link {
+  text-decoration: none;
+  color: var(--color-accent-link);
 
-.brand__link {
-  display: block;
-  padding: 2rem;
-  transition: all .3s ease-in-out 0s;
-  &:hover {
-    background: var(--percent-40);
-    filter: sepia(1) hue-rotate(220deg) brightness(.77);
+  &:focus,
+  &:hover {   
+    color: var(--color-off-white);
+    background-color: var(--color-body-text);    
+  }
+
+  &:focus {
+    outline: none;
   }
 }
 
-// Animate Link Underlines
-// http://tobiasahlin.com/blog/css-trick-animating-link-underlines/
-a:not(.brand__link):not(.button):not(.social__link):not(.link--card):not(.link--sample) {
-  color: var(--link-color-normal);
-  position: relative;
+.social__link {
+  // large touch area
+  padding: .5rem;
+  display: inline-block;
   text-decoration: none;
 
-  &:active,
-  &:hover {
-    color: var(--link-color-hover);
-  }
+  .social-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: var(--percent-20);
+    background-color: var(--color-light);
+    transition: none;
 
-  &:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: -2px;
-    left: 0;
-    background-color: var(--link-color-hover);
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all .3s ease-in-out 0s;
-  }
-
-  &:hover:before {
-    visibility: visible;
-    transform: scaleX(1);
+    &:focus,
+    &:hover {
+      fill: var(--color-accent-link);
+    }
   }
 }
 
-a:visited {
-  color: var(--link-color-visited);
-}
-
-a.button {
-  text-decoration: none;
-}
-
-.link--reverse a:not(.brand__link):not(.button):not(.social__link):not(.link--card):not(.link--sample) {
-  color: var(--dusty-rose-light);
-  &:visited {
-    color: var(--percent-80);
+.social__link:focus {
+  .social-icon {
+    fill: var(--color-accent-link);
   }
-  &:active,
-  &:hover {
-    color: var(--white);
-  }
-  &:before {
-    background-color: var(--white);
-  }
-}
-
-a.link--card {
-  color: var(--white);
-  display: block;
-  text-decoration: none;
 }

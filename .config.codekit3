@@ -775,7 +775,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/source/styles/components/_lists.scss": {
+	"/source/styles/layout/_case_study.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -783,20 +783,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/dist/styles/components/_lists.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/source/styles/layout/_cards.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 2,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/styles/layout/_cards.css",
+		"oAP": "/dist/styles/layout/_case_study.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -840,19 +827,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/source/styles/layout/_header.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 2,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/styles/layout/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/source/styles/layout/_hero.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -862,19 +836,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/styles/layout/_hero.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/source/styles/layout/_intro.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 2,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/styles/layout/_intro.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -905,19 +866,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/source/styles/layout/_portfolio.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 2,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/styles/layout/_portfolio.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/source/styles/layout/_skew.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -931,7 +879,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/source/styles/layout/_walker_tracker.scss": {
+	"/source/styles/layout/_work.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -939,20 +887,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/dist/styles/layout/_walker_tracker.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/source/styles/layout/_work-contact.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 2,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/styles/layout/_work-contact.css",
+		"oAP": "/dist/styles/layout/_work.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -989,7 +924,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 600739274.96954095
+	"lastBuiltDate": 600812720.10034895
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

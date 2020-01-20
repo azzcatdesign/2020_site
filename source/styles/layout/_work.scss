@@ -1,6 +1,5 @@
 // Note: can't use the 'skew-wrap' code here, because we need a couple container classes, and the skew line gets cut off with that. 
-.work-wrap,
-.contact-wrap {  
+.work-wrap {  
   --pad-top: 4.5rem;
   --pad-bottom: 4rem;
   --pad-hz: 2rem;
@@ -84,8 +83,7 @@
 
   @media (min-width: 1440px) {
     --grid-gap: 3rem;
-  }
-  
+  } 
 }
 
 .kolcraft {
@@ -263,13 +261,4 @@
 .case-study {
   font-size: var(--text-md);
   line-height: var(--line-height-xs);
-}
-
-
-/*******************************************/
-.contact-wrap {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 800px;
-  border: 1px dotted blue;
 }

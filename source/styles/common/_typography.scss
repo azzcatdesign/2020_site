@@ -56,14 +56,14 @@ h1, .h1,
 h2, .h2,
 h3, .h3,
 h4, .h4 {  
-  font-family: var(--font-head);
-  font-weight: 700; 
+  font-family: var(--font-head); 
   color: var(--color-head-text);
 }
 
 h1, .h1,
 h2, .h2 {
   line-height: var(--line-height-xs);
+  font-weight: 700;
 }
 
 h3, .h3,
@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 p,
 ol li,
 ul li {
+  margin-top: 0;
   margin-bottom: 1em;
 }
 
@@ -103,5 +104,24 @@ ul li {
 .t-view {
   font-family: var(--font-slab);
   font-size: var(--text-xxl);
-  font-weight: var(--font-heavy);
+  font-weight: var(--font-weight-heavy);
+}
+
+.t-cs-opening,
+.t-cs-closing {
+  font-family: var(--font-slab);
+  font-size: var(--text-md);
+  font-style: italic;
+  font-weight: var(--font-weight-light); 
+}
+
+.t-caption {
+  font-family: var(--font-slab);
+  font-size: var(--text-sm);
+  font-style: italic;
+  font-weight: var(--font-weight-light);    
+}
+
+.t-cs-sub-subtitle {
+  font-weight: var(--font-weight-light);
 }

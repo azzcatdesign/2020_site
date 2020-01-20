@@ -34,287 +34,232 @@
     </head>
   
 
-  <body>
-    <a href="javascript:" id="top" class="scroll-to-top button">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48" xml:space="preserve" width="24" height="24">
-        <g class="nc-icon-wrapper">
-          <path d="M44,36.829l-20-20l-20,20L1.171,34l21.415-21.414c0.78-0.781,2.048-0.781,2.828,0L46.829,34L44,36.829z">
-          </path>
-        </g>
-      </svg>
-    </a>
+  <body class="page-case-study page-case-study--cs">
+
+    <header class="l-container menu-wrap">
+          <nav class="menu-local">         
+            <a class="t-sm menu__link" href="index.html"><span>home</span></a>      
+            <a class="t-sm menu__link" href="#contact"><span>contact</span></a>        
+          </nav>
+      
+    </header>
+
+    <div class="l-container">
+      <div class="cs-header">
+        <div class="t-cs-opening opening">Case Study:</div>
+        <h1 class="cs-header__title">      
+          <span class="t-cs-middle middle">CrowdStreet</span>
+        </h1>
+        <div class="t-cs-closing closing">Site Redesign & Build</div>
+      </div>
+    </div>
     
-    <div class="wrap">
+    <main class="cs-main">    
+        <h2 class="cs__subtitle">Background</h2>
+        <div class="artifact artifact--cs-before artifact__wrap">
+          <figure class="artifact__figure">
+            <img class="artifact__img" src="images/cs_home_partial.jpg" alt="Grab of CS original home page" />
+            <figcaption class="t-caption artifact__caption">Here's a grab of CrowdStreet's Home page, circa from late 2016.</figcaption>
+          </figure>
+      
+          <div class="section-wrap--one">
+            <h3 class="t-cs-sub-subtitle cs__sub-subtitle">Part One</h3>
+            <p>The original intent of this project was to refresh the existing marketing home page. However, the old site had been cobbled together by various engineers & contractors, resulting in a fragile code base. There was serious technical debt which slowed down the site. It was visually inconsistent with 4 sans serif fonts, no standard font-size, line-height or baseline grid. Most importantly, as a custom Django build, all content edits required Engineering to deploy. This seriously hindered Marketing from getting updates online in a timely manner. It was time for Marketing to have its own shiny, new CMS.</p>
+            <p>And so, after researching CMS options, we settled on WordPress. I was then tasked with the site design, build, deployment & maintenance. Phew!</p>
+          </div>
+          <div class="section-wrap--two">
+      
+            <hr aria-hidden="true" class="cs__rule"/>
+      
+            <h3 class="t-cs-sub-subtitle cs__sub-subtitle">Part Two</h3>
+            <p>As design & development continued, the exec team concluded that as a company, we had 2 different audiences:</p>
+            <ol>
+              <li>Sponsors–those businesses who licensed/used our SaaS application (B2B), accordion</li>
+              <li>Investors–those individuals who used the SaaS app to invest in offerings (B2C).</li>
+            </ol>
+            <p>Thus was born the WordPress Multisite:</p>
+            <ul>
+              <li>CrowdStreet Home</li>
+              <li>CrowdStreet Business Solutions for Sponsors, and</li>
+              <li>CrowdStreet Marketplace for Investors.</li>
+            </ul>
+          </div>
+        </div>
+      
+        <hr aria-hidden="true" class="cs__rule" />
+      
+        <h2 class="cs__subtitle">Artifacts</h2>
+        <h3 class="t-cs-sub-subtitle cs__sub-subtitle">CrowdStreet Home</h3>
+        <div class="artifact artifact--cs-wireframes">   
+          <figure class="artifact__figure">
+            <a class="artifact__link" href="https://sketch.cloud/s/1P2Rw/p/education-home">
+              <img class="artifact__img" src="images/cs_wf_lf_inv_resource_01.jpg" alt="resource center wireframes" />
+            </a>
+            <figcaption class="t-caption artifact__caption">Articles content from former site was exported to WordPress, retaining URL structure and SEO value. The new site allows for much better filtering options and also works on mobile (original site did not).</figcaption>
+          </figure>    
+        </div>
+      
+        <div class="artifact artifact--cs-home-mocks">
+          <figure class="artifact__figure">
+            <a class="artifact__link" href="https://sketch.cloud/s/pZOJ">
+              <img class="artifact__img" src="images/cs_wf_hf_home_02.jpg" alt="home mockups" />
+            </a>
+            <figcaption class="t-caption artifact__caption">Months later this page was redesigned to reflect its change in purpose. It functions as a portal for Users to select the Investor (B2C) or Sponsor (B2B) path.</figcaption>
+          </figure>   
+        </div>
+      
+        <hr aria-hidden="true" class="cs__rule" />
+      
+        <h3 id="business" class="t-cs-sub-subtitle cs__sub-subtitle">CrowdStreet Business Solutions</h3>
+        <div class="artifact artifact--cs-bus-mocks">
+          <figure class="artifact__figure">
+            <a class="artifact__link" href="https://sketch.cloud/s/07poV/p/home-page">
+              <img class="artifact__img" src="images/cs_wf_hf_business_header_options_01.jpg"  alt="business mockups" />
+            </a>
+            <figcaption class="t-caption artifact__caption">The initial build of this page is shown by leftmost mockup with other layout options to right. After working with exec team to simplify the message, we arrived at a hero video background with  more streamlined value statement.</figcaption>
+          </figure>   
+        </div>
+      
+        <div class="artifact artifact--cs-tabs-mocks">
+          <figure class="artifact__figure">
+            <a class="artifact__link" href="https://sketch.cloud/s/07poV/p/revised">
+              <img class="artifact__img" src="images/cs_wf_hf_tabs_options_01.jpg" alt="mockups for accordion/tabs" />
+            </a>
+            <figcaption class="t-caption artifact__caption">The initial implementation (left) was preferred by executive team because it emulated a pattern they liked. However, we had far too much content to display in that fashion. After a couple weeks of usability issues (felt by execs) I was allowed to refactor the content into the accordion/tabs pattern now in use. This was truly a case of needing to build it the <strong>wrong</strong> way first to justify building it in a more user-friendly way later.</figcaption>
+          </figure>   
+        </div>
+      
+        <hr aria-hidden="true" class="cs__rule" />
+      
+        <h3 id="marketplace" class="t-cs-sub-subtitle cs__sub-subtitle">CrowdStreet Marketplace</h3>
+        <div class="artifact artifact--cs-mktpl">
+          <figure class="artifact__figure">
+            <a class="artifact__link" href="https://sketch.cloud/s/kQoyA/p/1st-round-all-users">
+              <img class="artifact__img" src="images/cs_wf_mf_investor_landing_01.jpg" alt="wireframes" />
+            </a>
+            <figcaption class="t-caption artifact__caption">Round one. Before much consensus on purpose or message.</figcaption>
+          </figure>    
+        </div>
+      
+        <div class="artifact artifact--cs-mktpl-wireframes">
+          <figure class="artifact__figure">
+            <a class="artifact__link" href="https://sketch.cloud/s/kQoyA/p/2nd-round-all-users/desktop-1200">
+              <img class="artifact__img" src="images/cs_wf_lf_investor_landing_02.jpg" alt="wireframes" />
+            </a>
+            <figcaption class="t-caption artifact__caption">Round two. Whiteboards and low-fidelity wireframes.</figcaption>
+          </figure>    
+        </div>
+      
+        <div class="artifact artifact--cs-mktpl-wireframes">
+          <figure class="artifact__figure">
+            <a class="artifact__link" href="https://sketch.cloud/s/kQoyA/p/3rd-round-user-not-registered">
+              <img class="artifact__img" src="images/cs_wf_hf_investor_landing_03.jpg" alt="wireframes" />
+            </a>
+            <figcaption class="t-caption artifact__caption">Round three. Clarity of purpose, and separation of this landing page for new Investors vs. Investor Center for current Investor Members.</figcaption>
+          </figure>   
+        </div>
+      
+        <div class="artifact artifact--cs-mktpl-mocks">
+          <figure class="artifact__figure">
+            <a class="artifact__link" href="https://sketch.cloud/s/kQoyA/p/1st-round-user-registered-investor-center">
+              <img class="artifact__img" src="images/cs_wf_mf_investor_ctr_01.jpg" alt="mockups" />
+            </a>
+            <figcaption class="t-caption artifact__caption">The Investor Center. Whiteboard, medium-fidelity wireframes and miscellaneous graphics.</figcaption>
+          </figure>    
+        </div>
+      
+        <h3 class="t-cs-sub-subtitle cs__sub-subtitle">2018 Update</h3>
+        <p>In 2018, CrowdStreet underwent a complete rebranding, including implementing a completely new website.<br>
+        <strong><em>So again...'Digital Ephemera Chef' FTW!</em></strong></p>
+      
+      
+    </main>
+      
+        <footer role="contentinfo" class="l-container l-container--base l-container--accent">
+          <div class="footer-content-wrap" id="contact">
+            <div class="contact-wrap">
+              <h3>Get in Touch</h3>
+              <p class="notification">Full-time remote or extended contract preferred.</p>
+              <form class="contact-form" 
+                action="https://formspree.io/xyyewwpd"
+                method="POST"
+              >
+                <p>
+                  <label for="name">Name:</label>
+                  <input type="text" name="name" required>
+                </p>
+                <p>
+                  <label for="email">Email:</label>
+                  <input type="email" name="_replyto" required>
+                </p>
+                <p>
+                  <label for="message">Message:</label>
+                  <textarea type="text" name="message" required></textarea>
+                </p>
+                <button class="button button--small" type="submit" value="Send">Send Message</button>
+              </form>
+              <p>Love notes and other messages can be sent to:
+                <span>
+                  <script type="text/javascript">
+                    document.write('<a class="inline-link" href="mailto:'+first + '@' + last+'">'+first + '@' + last+'<\/a>');
+                  </script>
+                  <noscript>
+                    Please enable javascript or use the contact form.
+                  </noscript>
+                </span>
+              </p>
+    
+              <!-- <p><small><a href="https://github.com/nfriedly/spam-free-php-contact-form">Spam-free contact form</a> by <a href="http://nfriedly.com/" title="Nathan Friedly - JavaScript / node.js developer">Nathan Friedly</a></small></p> -->
+    
+            </div>
+    
+            <div class="social-wrap">
+              <ul class="socials">
+                <li class="social">
+                  <a href="http://www.linkedin.com/in/azzcatdesign" class="social__link" title="LinkedIn">
+                    <svg class="social-icon social-icon--linkedin" viewBox="0 0 32 32">
+                      <path d="M30.7 0H1.3C.6 0 0 .6 0 1.3v29.3c0 .8.6 1.4 1.3 1.4h29.3c.7 0 1.3-.6 1.3-1.3V1.3C32 .6 31.4 0 30.7 0zM9.5 27.3H4.7V12h4.8v15.3zM7.1 9.9c-1.5 0-2.8-1.2-2.8-2.8 0-1.5 1.2-2.8 2.8-2.8 1.5 0 2.8 1.2 2.8 2.8 0 1.6-1.3 2.8-2.8 2.8zm20.2 17.4h-4.7v-7.4c0-1.8 0-4-2.5-4s-2.8 1.9-2.8 3.9v7.6h-4.7V12H17v2.1h.1c.6-1.2 2.2-2.5 4.5-2.5 4.8 0 5.7 3.2 5.7 7.3v8.4z"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social">
+                  <a href="http://codepen.io/azzcatdesign/" class="social__link" title="Codepen">
+                    <svg class="social-icon social-icon--codepen" viewBox="0 0 32 32">
+                      <path d="M32,10.9C32,10.9,32,10.9,32,10.9c0-0.1,0-0.1,0-0.2c0,0,0,0,0-0.1c0,0,0-0.1,0-0.1c0,0,0,0,0-0.1 c0,0,0-0.1,0-0.1c0,0,0,0,0-0.1c0,0,0-0.1-0.1-0.1c0,0,0,0,0-0.1c0,0,0-0.1-0.1-0.1c0,0,0,0-0.1-0.1c0,0-0.1,0-0.1-0.1 c0,0,0,0-0.1,0c0,0,0,0,0,0L16.8,0.2c-0.5-0.3-1.1-0.3-1.5,0L0.6,10c0,0,0,0,0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0.1c0,0,0,0-0.1,0.1 c0,0,0,0-0.1,0.1c0,0,0,0,0,0.1c0,0,0,0.1-0.1,0.1c0,0,0,0,0,0.1c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1 c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1c0,0.1,0,0.1,0,0.2v9.7c0,0.1,0,0.1,0,0.2c0,0,0,0,0,0.1c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1 c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1c0,0,0,0.1,0.1,0.1c0,0,0,0,0,0.1c0,0,0,0.1,0.1,0.1c0,0,0,0,0.1,0.1 c0,0,0.1,0,0.1,0.1c0,0,0,0,0.1,0c0,0,0,0,0,0l14.6,9.8c0.2,0.2,0.5,0.2,0.8,0.2c0.3,0,0.5-0.1,0.8-0.2L31.4,22c0,0,0,0,0,0 c0,0,0,0,0.1,0c0,0,0.1,0,0.1-0.1c0,0,0,0,0.1-0.1c0,0,0,0,0.1-0.1c0,0,0,0,0-0.1c0,0,0-0.1,0.1-0.1c0,0,0,0,0-0.1c0,0,0-0.1,0-0.1 c0,0,0,0,0-0.1c0,0,0-0.1,0-0.1c0,0,0,0,0-0.1c0,0,0-0.1,0-0.1c0,0,0,0,0-0.1c0-0.1,0-0.1,0-0.2v-9.7C32,11.1,32,11,32,10.9z M17.4,3.9l10.8,7.2l-4.8,3.2l-6-4V3.9z M14.6,3.9v6.4l-6,4l-4.8-3.2L14.6,3.9z M2.8,13.7L6.2,16l-3.4,2.3V13.7z M14.6,28.1 L3.9,20.9l4.8-3.2l6,4V28.1z M16,19.3L11.1,16l4.9-3.3l4.9,3.3L16,19.3z M17.4,28.1v-6.4l6-4l4.8,3.2L17.4,28.1z M29.2,18.3L25.8,16 l3.4-2.3V18.3z"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social">
+                  <a href="https://github.com/azzcatdesign" class="social__link" title="GitHub">
+                    <svg class="social-icon social-icon--github" viewBox="0 0 32 32">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16,0.4c-8.8,0-16,7.2-16,16c0,7.1,4.6,13.1,10.9,15.2 c0.8,0.1,1.1-0.3,1.1-0.8c0-0.4,0-1.4,0-2.7c-4.5,1-5.4-2.1-5.4-2.1c-0.7-1.8-1.8-2.3-1.8-2.3c-1.5-1,0.1-1,0.1-1 c1.6,0.1,2.5,1.6,2.5,1.6c1.4,2.4,3.7,1.7,4.7,1.3c0.1-1,0.6-1.7,1-2.1c-3.6-0.4-7.3-1.8-7.3-7.9c0-1.7,0.6-3.2,1.6-4.3 c-0.2-0.4-0.7-2,0.2-4.2c0,0,1.3-0.4,4.4,1.6c1.3-0.4,2.6-0.5,4-0.5c1.4,0,2.7,0.2,4,0.5C23.1,6.6,24.4,7,24.4,7 c0.9,2.2,0.3,3.8,0.2,4.2c1,1.1,1.6,2.5,1.6,4.3c0,6.1-3.7,7.5-7.3,7.9c0.6,0.5,1.1,1.5,1.1,3c0,2.1,0,3.9,0,4.4 c0,0.4,0.3,0.9,1.1,0.8C27.4,29.5,32,23.5,32,16.4C32,7.6,24.8,0.4,16,0.4z"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social">
+                  <a href="https://medium.com/@azzcatdesign/" class="social__link" title="Medium">
+                    <svg class="social-icon social-icon--medium" viewBox="0 0 32 32">
+                      <path d="M31,0H1A1,1,0,0,0,0,1V31a1,1,0,0,0,1,1H31a1,1,0,0,0,1-1V1A1,1,0,0,0,31,0ZM26.585,7.582,24.868,9.227a.5.5,0,0,0-.191.482V21.8a.5.5,0,0,0,.191.482l1.676,1.645v.361h-8.43v-.361L19.85,22.24c.171-.171.171-.221.171-.482V11.986L15.194,24.247h-.652L8.921,11.986V20.2a1.134,1.134,0,0,0,.311.943l2.258,2.739v.361h-6.4v-.361l2.258-2.739a1.093,1.093,0,0,0,.291-.943V10.7a.832.832,0,0,0-.271-.7L5.358,7.582V7.221h6.232l4.817,10.565L20.643,7.221h5.941Z"/>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="colophon-wrap">
+              <p class="colophon"><!-- Generated by www.webweaver.nu -->
+                <script type="text/javascript">
+                  document.write('©' );
+                  document.write('2005–');
+                  document.write(new Date().getFullYear());
+                  document.write(' Azzcat Design, LLC');
+                </script>
+              </p>
+            </div>
+          </div>
+        </footer>
+    
 
-      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="icon-logo-codepen" viewBox="0 0 32 32">
-          <g>
-            <g class="nc-icon-wrapper">
-              <path fill="currentColor" d="M32,10.9C32,10.9,32,10.9,32,10.9c0-0.1,0-0.1,0-0.2c0,0,0,0,0-0.1c0,0,0-0.1,0-0.1c0,0,0,0,0-0.1 c0,0,0-0.1,0-0.1c0,0,0,0,0-0.1c0,0,0-0.1-0.1-0.1c0,0,0,0,0-0.1c0,0,0-0.1-0.1-0.1c0,0,0,0-0.1-0.1c0,0-0.1,0-0.1-0.1 c0,0,0,0-0.1,0c0,0,0,0,0,0L16.8,0.2c-0.5-0.3-1.1-0.3-1.5,0L0.6,10c0,0,0,0,0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0.1c0,0,0,0-0.1,0.1 c0,0,0,0-0.1,0.1c0,0,0,0,0,0.1c0,0,0,0.1-0.1,0.1c0,0,0,0,0,0.1c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1 c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1c0,0.1,0,0.1,0,0.2v9.7c0,0.1,0,0.1,0,0.2c0,0,0,0,0,0.1c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1 c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1c0,0,0,0.1,0.1,0.1c0,0,0,0,0,0.1c0,0,0,0.1,0.1,0.1c0,0,0,0,0.1,0.1 c0,0,0.1,0,0.1,0.1c0,0,0,0,0.1,0c0,0,0,0,0,0l14.6,9.8c0.2,0.2,0.5,0.2,0.8,0.2c0.3,0,0.5-0.1,0.8-0.2L31.4,22c0,0,0,0,0,0 c0,0,0,0,0.1,0c0,0,0.1,0,0.1-0.1c0,0,0,0,0.1-0.1c0,0,0,0,0.1-0.1c0,0,0,0,0-0.1c0,0,0-0.1,0.1-0.1c0,0,0,0,0-0.1c0,0,0-0.1,0-0.1 c0,0,0,0,0-0.1c0,0,0-0.1,0-0.1c0,0,0,0,0-0.1c0,0,0-0.1,0-0.1c0,0,0,0,0-0.1c0-0.1,0-0.1,0-0.2v-9.7C32,11.1,32,11,32,10.9z M17.4,3.9l10.8,7.2l-4.8,3.2l-6-4V3.9z M14.6,3.9v6.4l-6,4l-4.8-3.2L14.6,3.9z M2.8,13.7L6.2,16l-3.4,2.3V13.7z M14.6,28.1 L3.9,20.9l4.8-3.2l6,4V28.1z M16,19.3L11.1,16l4.9-3.3l4.9,3.3L16,19.3z M17.4,28.1v-6.4l6-4l4.8,3.2L17.4,28.1z M29.2,18.3L25.8,16 l3.4-2.3V18.3z"/>
-            </g>
-          </g>
-        </symbol>
-      
-        <symbol id="icon-logo-github" viewBox="0 0 32 32">
-          <g>
-            <g class="nc-icon-wrapper">
-              <path fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" d="M16,0.4c-8.8,0-16,7.2-16,16c0,7.1,4.6,13.1,10.9,15.2 c0.8,0.1,1.1-0.3,1.1-0.8c0-0.4,0-1.4,0-2.7c-4.5,1-5.4-2.1-5.4-2.1c-0.7-1.8-1.8-2.3-1.8-2.3c-1.5-1,0.1-1,0.1-1 c1.6,0.1,2.5,1.6,2.5,1.6c1.4,2.4,3.7,1.7,4.7,1.3c0.1-1,0.6-1.7,1-2.1c-3.6-0.4-7.3-1.8-7.3-7.9c0-1.7,0.6-3.2,1.6-4.3 c-0.2-0.4-0.7-2,0.2-4.2c0,0,1.3-0.4,4.4,1.6c1.3-0.4,2.6-0.5,4-0.5c1.4,0,2.7,0.2,4,0.5C23.1,6.6,24.4,7,24.4,7 c0.9,2.2,0.3,3.8,0.2,4.2c1,1.1,1.6,2.5,1.6,4.3c0,6.1-3.7,7.5-7.3,7.9c0.6,0.5,1.1,1.5,1.1,3c0,2.1,0,3.9,0,4.4 c0,0.4,0.3,0.9,1.1,0.8C27.4,29.5,32,23.5,32,16.4C32,7.6,24.8,0.4,16,0.4z"/>
-            </g>
-          </g>
-        </symbol>
-      
-        <symbol id="icon-logo-medium" viewBox="0 0 32 32">
-          <g>
-            <g class="nc-icon-wrapper">
-              <path d="M31,0H1A1,1,0,0,0,0,1V31a1,1,0,0,0,1,1H31a1,1,0,0,0,1-1V1A1,1,0,0,0,31,0ZM26.585,7.582,24.868,9.227a.5.5,0,0,0-.191.482V21.8a.5.5,0,0,0,.191.482l1.676,1.645v.361h-8.43v-.361L19.85,22.24c.171-.171.171-.221.171-.482V11.986L15.194,24.247h-.652L8.921,11.986V20.2a1.134,1.134,0,0,0,.311.943l2.258,2.739v.361h-6.4v-.361l2.258-2.739a1.093,1.093,0,0,0,.291-.943V10.7a.832.832,0,0,0-.271-.7L5.358,7.582V7.221h6.232l4.817,10.565L20.643,7.221h5.941Z" fill="currentColor"/>
-            </g>
-          </g>
-        </symbol>
-      
-        <symbol id="icon-logo-linkedin" viewBox="0 0 32 32">
-          <g>
-            <g class="nc-icon-wrapper">
-              <path fill="currentColor" d="M30.7,0H1.3C0.6,0,0,0.6,0,1.3v29.3C0,31.4,0.6,32,1.3,32h29.3c0.7,0,1.3-0.6,1.3-1.3V1.3 C32,0.6,31.4,0,30.7,0z M9.5,27.3H4.7V12h4.8V27.3z M7.1,9.9c-1.5,0-2.8-1.2-2.8-2.8c0-1.5,1.2-2.8,2.8-2.8c1.5,0,2.8,1.2,2.8,2.8 C9.9,8.7,8.6,9.9,7.1,9.9z M27.3,27.3h-4.7v-7.4c0-1.8,0-4-2.5-4c-2.5,0-2.8,1.9-2.8,3.9v7.6h-4.7V12H17v2.1h0.1 c0.6-1.2,2.2-2.5,4.5-2.5c4.8,0,5.7,3.2,5.7,7.3V27.3z"/>
-            </g>
-          </g>
-        </symbol>
-      </svg>
-      
-          <header role="banner" class="wrap--header">
-                  <nav role="navigation">
-                    <ul class="nav">
-                      <li class="brand">
-                        <a href="index.html" class="brand__link">
-                          <img src="images/logotype.svg" alt="Azzcat Design Logo"/>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#contact">Contact</a>
-                      </li>
-                    </ul>
-                  </nav>
-                </header>
-            
-        <header class="header--case-study">
-                      <h1>
-                        <span class="opening">Case Study:</span>
-                        <span class="middle">CrowdStreet</span>
-                      </h1>
-                      <h4 class="closing">Site Redesign & Build</h4>
-                    </header>
-                  
-                    <div class="wrap--case-study">
-                      <h2>Background</h2>
-                      <div class="wrap--bkgd">
-                        <div class="wrap--image">
-                          <img alt="Grab of CS original home page" src="images/cs_home_partial.jpg" />
-                          <p><em>Here's a grab of CrowdStreet's Home page, circa from late 2016.</em></p>
-                        </div>
-                        <h3>Part One</h3>
-                        <p>The original intent of this project was to refresh the existing marketing home page. However, the old site had been cobbled together by various engineers & contractors, resulting in a fragile code base. There was serious technical debt which slowed down the site. It was visually inconsistent with 4 sans serif fonts, no standard font-size, line-height or baseline grid. Most importantly, as a custom Django build, all content edits required Engineering to deploy. This seriously hindered Marketing from getting updates online in a timely manner. It was time for Marketing to have its own shiny, new CMS.</p>
-                        <p>And so, after researching CMS options, we settled on WordPress. I was then tasked with the site design, build, deployment & maintenance. Phew!</p>
-                        <h3>Part Two</h3>
-                        <p>As design & development continued, the exec team concluded that as a company, we had 2 different audiences:</p>
-                        <ol>
-                          <li>Sponsors–those businesses who licensed/used our SaaS application (B2B), and</li>
-                          <li>Investors–those individuals who used the SaaS app to invest in offerings (B2C).</li>
-                        </ol>
-                        <p>Thus was born the WordPress Multisite:</p>
-                        <ul>
-                          <li>CrowdStreet Home</li>
-                          <li>CrowdStreet Business Solutions for Sponsors, and</li>
-                          <li>CrowdStreet Marketplace for Investors.</li>
-                        </ul>
-                      </div>
-                  
-                      <h2>Artifacts</h2>
-                      <div class="wrap--artifact">
-                        <h3>CrowdStreet Home</h3>
-                        <div class="wrap--image">
-                          <a class="link--sample" href="https://sketch.cloud/s/1P2Rw/p/education-home">
-                            <img alt="resource center wireframes" src="images/cs_wf_lf_inv_resource_01.jpg" />
-                          </a>
-                        </div>
-                        <p><em>Articles content from former site was exported to WordPress, retaining URL structure and SEO value. The new site allows for much better filtering options and also works on mobile (original site did not).</em></p>
-                      </div>
-                  
-                      <div class="wrap--artifact">
-                        <div class="wrap--image">
-                          <a class="link--sample" href="https://sketch.cloud/s/pZOJ">
-                            <img alt="home mockups" src="images/cs_wf_hf_home_02.jpg" />
-                          </a>
-                        </div>
-                        <p><em>Months later this page was redesigned to reflect its change in purpose. It functions as a portal for Users to select the Investor (B2C) or Sponsor (B2B) path.</em></p>
-                      </div>
-                  
-                      <div id="business" class="wrap--artifact">
-                        <h3>CrowdStreet Business Solutions</h3>
-                        <div class="wrap--image">
-                          <a class="link--sample" href="https://sketch.cloud/s/07poV/p/home-page">
-                            <img alt="" src="images/cs_wf_hf_business_header_options_01.jpg" />
-                          </a>
-                        </div>
-                        <p><em>The initial build of this page is shown by leftmost mockup with other layout options to right. After working with exec team to simplify the message, we arrived at a hero video background with  more streamlined value statement.</em></p>
-                      </div>
-                  
-                      <div class="wrap--artifact">
-                        <div class="wrap--image">
-                          <a class="link--sample" href="https://sketch.cloud/s/07poV/p/revised">
-                            <img alt="mockups for accordion/tabs" src="images/cs_wf_hf_tabs_options_01.jpg" />
-                          </a>
-                        </div>
-                        <p><em>The initial implementation (left) was preferred by executive team because it emulated a pattern they liked. However, we had far too much content to display in that fashion. After a couple weeks of usability issues (felt by execs) I was allowed to refactor the content into the accordion/tabs pattern now in use. This was truly a case of needing to build it the <strong>wrong</strong> way first to justify building it in a more user-friendly way later.</em></p>
-                       </div>
-                  
-                      <div class="wrap--artifact" id="marketplace">
-                        <h3>CrowdStreet Marketplace</h3>
-                        <div class="wrap--image">
-                          <a class="link--sample" href="https://sketch.cloud/s/kQoyA/p/1st-round-all-users">
-                            <img alt="wireframes" src="images/cs_wf_mf_investor_landing_01.jpg" />
-                          </a>
-                        </div>
-                        <p><em>Round one. Before much consensus on purpose or message.</em></p>
-                      </div>
-                  
-                      <div class="wrap--artifact">
-                        <div class="wrap--image">
-                          <a class="link--sample" href="https://sketch.cloud/s/kQoyA/p/2nd-round-all-users/desktop-1200">
-                            <img alt="wireframes" src="images/cs_wf_lf_investor_landing_02.jpg" />
-                          </a>
-                        </div>
-                        <p><em>Round two. Whiteboards and low-fidelity wireframes.</em></p>
-                      </div>
-                  
-                      <div class="wrap--artifact">
-                        <div class="wrap--image">
-                          <a class="link--sample" href="https://sketch.cloud/s/kQoyA/p/3rd-round-user-not-registered">
-                            <img alt="wireframes" src="images/cs_wf_hf_investor_landing_03.jpg" />
-                          </a>
-                        </div>
-                        <p><em>Round three. Clarity of purpose, and separation of this landing page for new Investors vs. Investor Center for current Investor Members.</em></p>
-                      </div>
-                  
-                      <div class="wrap--artifact">
-                        <div class="wrap--image">
-                          <a class="link--sample" href="https://sketch.cloud/s/kQoyA/p/1st-round-user-registered-investor-center">
-                            <img alt="mockups" src="images/cs_wf_mf_investor_ctr_01.jpg" />
-                          </a>
-                        </div>
-                        <p><em>The Investor Center. Whiteboard, medium-fidelity wireframes and miscellaneous graphics.</em></p>
-                      </div>
-                  
-                      <h3>2018 Update</h3>
-                      <p>In 2018, CrowdStreet underwent a complete rebranding, including implementing a completely new website.<br>
-                      <strong><em>So again...'Digital Ephemera Chef' FTW!</em></strong></p>
-                    </div>
-                  
-          <footer role="contentinfo" class="wrap--footer">
-                              <div id="contact" class="wrap--contact">
-                                <h3>Get in Touch</h3>
-                                <p class="notification">Extended contract or full-time remote preferred.</p>
-                                <!-- <form class="contact-form" method="post" action="submit.php">
-                                  <p>
-                                    <label for="name">Name:</label>
-                                    <input type="text" name="name" id="name" required />
-                                  </p>
-                        
-                                  <p>
-                                    <label for="email">Email:</label>
-                                    <input type="email" name="email" id="email" required />
-                                  </p>
-                        
-                                  <p class="antispam">Leave this empty:<br>
-                                    <input name="url" />
-                                  </p>
-                        
-                                  <p>
-                                    <label for="message">Message:</label>
-                                    <textarea type="text" name="message" id="message" required ></textarea>
-                                  </p>
-                        
-                                  <button type="submit" value="Submit" class="button button--green-dark button--small">Send Message</button>
-                        
-                                </form> -->
-                                <form class="contact-form" 
-                                  action="https://formspree.io/xyyewwpd"
-                                  method="POST"
-                                >
-                                  <p>
-                                    <label for="name">Name:</label>
-                                    <input type="text" name="name" required>
-                                  </p>
-                                  <p>
-                                    <label for="email">Email:</label>
-                                    <input type="email" name="_replyto" required>
-                                  </p>
-                                  <p>
-                                    <label for="message">Message:</label>
-                                    <textarea type="text" name="message" required></textarea>
-                                  </p>
-                                  <button class="button button--small" type="submit" value="Send">Send Message</button>
-                                </form>
-                                <p>Love notes and other messages can be sent to:
-                                  <span class="link--reverse">
-                                    <script type="text/javascript">
-                                      document.write('<a href="mailto:'+first + '@' + last+'">'+first + '@' + last+'<\/a>');
-                                    </script>
-                                    <noscript>
-                                      Please enable javascript or use the contact form.
-                                    </noscript>
-                                  </span>
-                                </p>
-                        
-                                <!-- <p><small><a href="https://github.com/nfriedly/spam-free-php-contact-form">Spam-free contact form</a> by <a href="http://nfriedly.com/" title="Nathan Friedly - JavaScript / node.js developer">Nathan Friedly</a></small></p> -->
-                        
-                              </div>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                              <div class="wrap--social">
-                                <ul class="social__list">
-                                  <li class="social__list-item">
-                                    <a href="http://www.linkedin.com/in/azzcatdesign" class="social__link" title="LinkedIn">
-                                      <svg><use href="#icon-logo-linkedin" xlink:href="#icon-logo-linkedin" /></svg>
-                                    </a>
-                                  </li>
-                                  <li class="social__list-item">
-                                    <a href="http://codepen.io/azzcatdesign/" class="social__link" title="Codepen">
-                                      <svg><use href="#icon-logo-codepen" xlink:href="#icon-logo-codepen" /></svg>
-                                    </a>
-                                  </li>
-                                  <li class="social__list-item">
-                                    <a href="https://github.com/azzcatdesign" class="social__link" title="GitHub">
-                                      <svg><use href="#icon-logo-github" xlink:href="#icon-logo-github" /></svg>
-                                    </a>
-                                  </li>
-                                  <li class="social__list-item">
-                                    <a href="https://medium.com/@azzcatdesign/" class="social__link" title="Medium">
-                                      <svg><use href="#icon-logo-medium" xlink:href="#icon-logo-medium" /></svg>
-                                    </a>
-                                  </li>
-                                </ul>
-                              </div>
-                        
-                              <div class="wrap--colophon">
-                                <p class="colophon"><!-- Generated by www.webweaver.nu -->
-                                  <script type="text/javascript">
-                                    document.write('©' );
-                                    document.write('2005–');
-                                    document.write(new Date().getFullYear());
-                                    document.write(' Azzcat Design, LLC');
-                                  </script>
-                                </p>
-                              </div>
-                            </footer>
-                        
-
-    </div><!--/wrap-->
     <script src="scripts/main.js"></script>
   </body>
 

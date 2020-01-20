@@ -22,13 +22,14 @@
   // colors
   --color-off-white: var(--percent-97);
   --color-off-black: var(--percent-3);
-  --color-accent: hsl(340, 90%, 50%);  // ~red
-  --color-light: hsl(34, 64%, 90%);  // ~beige
+  --color-accent: hsl(347, 65%, 50%);  // ~red
+  --color-light: hsl(34, 55%, 90%);  // ~beige
+  --color-x-light: hsl(34, 55%, 95%); // lighter beige
   --color-body-text: var(--percent-3);
   --color-head-text: var(--percent-20);
   --color-body-bg: var(--color-light);
-  --color-accent-link: hsl(340, 90%, 36%); // AAA
-  --color-accent-link-light: hsl(340, 90%, 55%); // AA large 
+  --color-accent-link: hsl(347, 65%, 30%); // AAA
+  --color-accent-link-light: hsl(347, 65%, 55%); // AA larg 
 
   // font family
   --font-body: adelle, serif;
@@ -63,6 +64,9 @@
 
   // transition
   --timing: .3s;
+
+  // borders
+  --border-thick: 1rem solid var(--color-off-black);
 
   // z-index
   --z-minus: -1;

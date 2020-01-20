@@ -1,16 +1,17 @@
 // the hamburger
 .menu__toggler {
-  height: 48px;
-  width: 48px;
+  height: 3rem;
+  width: 4.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
   z-index: 1000;
   top: 1rem;
-  right: 1rem;  
+  right: 0;  
   cursor: pointer;
-  background: var(--color-light); 
+  background: var(--color-off-black);
+  border: none;
 }
 
 .menu__toggler span,
@@ -20,16 +21,19 @@
   content: '';
   width: 28px;
   height: 3px;
-  background-color: var(--color-off-black);
+  left: 1rem;
+  background-color: var(--color-off-white);
   transition: 500ms cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .menu__toggler span::before {
   top: -8px;
+  left: 0;
 }
 
 .menu__toggler span::after {
   top: 8px;
+  left: 0;
 }
 
 .menu__toggler.active > span {
@@ -37,7 +41,7 @@
 }
 
 .menu__toggler.active > span::before, .menu__toggler.active > span::after {
-  background-color: var(--color-off-black);
+  background-color: var(--color-off-white);
   top: 0;
 }
 
@@ -51,25 +55,26 @@
           transform: rotate(225deg);
 }
 
+// the main menu
 .menu {
   width: auto;
   height: 100%;
   position: fixed;
   left: -100%;
-  z-index: 1000;  
+  z-index: var(--z-apex);  
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: transparent;
   transform: skew(-11deg);
-  transition: 300ms left cubic-bezier(0.77, 0, 0.175, 1);
+  // transition: 300ms left cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .menu.active {
   left: 1.5rem;
 }
 
-.menu a {
+.menu__link {
   padding: 1rem 3rem;
   border-bottom: 3px solid var(--white);
   display: block;
@@ -94,6 +99,32 @@
   &:hover,
   &:focus {
     background-color: var(--color-accent);
-    transition: 300ms cubic-bezier(0.77, 0, 0.175, 1);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+// menu from case-studies
+.menu-wrap {
+  padding-right: 1.7rem;
+  position: sticky;
+  top: 0;
+  z-index: var(--z-nav);
+}
+
+.menu-local {
+  display: flex;
+  justify-content: flex-end;
+  transform: skew(-11deg);
+
+  .menu__link {
+    border-right: 3px solid var(--white);
+    border-bottom: none;
+
+    &:last-child {
+      border-right: none;
+    }
   }
 }

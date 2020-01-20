@@ -11,11 +11,5 @@
 }
 
 .l-container--accent {
-  --border-thick: 1rem solid var(--color-off-black);
-  border-top: var(--border-thick); 
   border-bottom: var(--border-thick);
-  
-  + .l-container--accent {
-    border-top: 0;
-  }
 }

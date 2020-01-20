@@ -1,13 +1,52 @@
-.wrap--footer {
-  padding-top: 2rem;
-  background: linear-gradient(180deg,
-    var(--dusty-blue-violet),
-    var(--dusty-blue-violet-dark));
-  background-size: 100% 100%;
-  color: var(--percent-95);
+// similar to work-wrap
+.footer-content-wrap {  
+  --pad-top: 4.5rem;
+  --pad-bottom: 4rem;
+  --pad-hz: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: var(--pad-top);
+  padding-right: var(--pad-hz);
+  padding-bottom: var(--pad-bottom);
+  padding-left: var(--pad-hz);
+  position: relative;  
+    
+  @media (min-width: 510px) {
+    --pad-top: 7.5rem;
+  }
+  
+  &:before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    z-index: var(--z-normal);
+    
+    background-color: var(--color-accent);
+    transform: skew(-11deg);
+    
+    @media (min-width: 1000px) {
+      width: 5px;
+    }
+  }
+}
 
-  @include for-tablet-landscape-up {
-    padding-top: 4rem;
+.contact-wrap {
+  --pad: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: var(--pad);
+  max-width: 800px;
+  background-color: var(--color-x-light);
+  position: relative;
+  border-radius: 3px;
+  z-index: var(--z-plus);
+
+  @media (min-width: 760px) {
+    --pad: 2rem;
   }
 }
 
@@ -15,59 +54,38 @@
   display:none;
 }
 
-input:focus + [role="tooltip"] {
-  display: block;
-  position: absolute;
-  top: 100%;
-}
+.social-wrap {
+  --margin-top: 4rem;
+  margin-top: var(--margin-top);
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 24rem;
+  position: relative;
+  z-index: var(--z-plus);
 
-.wrap--contact {
-  margin: 0 auto;
-  padding: 0 3rem;
-  max-width: 80rem;
-}
-
-.wrap--social {
-  .social__list {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 80rem;
-    display: flex;
-    justify-content: center;
-  }
-
-  .social__list-item {
-    @extend %tac;
-
-    flex-basis: 25%;
-
-    a {
-      padding: 2rem;
-      color: var(--percent-80);
-      transition: all .3s ease-in-out;
-
-      &:visited {
-        color: var(--percent-50);
-      }
-
-      &:hover {
-        color: var(--dusty-rose);
-      }
-    }
-
-    svg {
-      max-width: 4rem;
-      max-height: 4rem;
-    }
+  @media (min-width: 1000px) {
+    --margin-top: 6rem;
   }
 }
 
-.wrap--colophon {
+.socials {  
+  // reset ul
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.social {
+  // reset li
+  margin: 0;
+}
+
+.colophon-wrap {
   padding: 0 0 2rem;
+}
 
-  p {
-    @extend %tac;
-
-    color: var(--percent-50);
-  }
+.colophon {
+  @extend %tac;
 }

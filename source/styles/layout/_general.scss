@@ -1,13 +1,14 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  transition: all var(--timing) ease-in-out 0;
+  //transition: all var(--timing) ease-in-out;
+  transition: all var(--timing) cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 :focus {
   outline-color: var(--color-accent);
   outline-style: solid;
-  outline-width: medium;
+  outline-width: 3px;
 }
 
 body {
@@ -21,19 +22,4 @@ body {
 
 img {
   max-width: 100%;
-}
-
-a:not(.work-item__link) {
-  text-decoration: none;
-  color: var(--color-accent-link);
-
-  &:focus,
-  &:hover {   
-    color: var(--color-off-white);
-    background-color: var(--color-body-text);    
-  }
-
-  &:focus {
-    outline: none;
-  }
 }

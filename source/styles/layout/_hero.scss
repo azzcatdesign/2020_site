@@ -4,6 +4,7 @@
   position: relative;
   background-color: var(--color-light);
   overflow: hidden;
+  border-bottom: var(--border-thick);
 }
 
 .name {
@@ -127,6 +128,10 @@
     position: absolute;    
     background: var(--color-off-black);
     transform: skew(-11deg);
+
+    @media (min-width: 1000px) {
+      height: 99.99%;
+    }
   }
   
   &::before {

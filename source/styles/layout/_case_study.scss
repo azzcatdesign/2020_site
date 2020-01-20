@@ -1,0 +1,171 @@
+.page-case-study {}
+
+// Section header that animates on page load
+.cs-header {
+  overflow: hidden;
+
+  .middle {
+    display: block;
+  }
+
+  .opening,
+  .middle,
+  .closing {
+    padding: .5em 2rem;
+  }
+
+  .opening,
+  .closing {    
+    background: linear-gradient(to left, var(--color-light), var(--color-off-black));
+    color: var(--white);
+  }
+
+  .opening {
+    animation: 1s ease-out .5s 1 slideInFromLeft;
+  }
+
+  .closing {
+    animation: 1s ease-out .5s 1 slideInFromRight;
+  }
+}
+
+.cs-header__title,
+.cs__subtitle {
+  color: var(--color-accent-link);
+}
+
+.cs__subtitle,
+.cs__sub-subtitle {
+  margin-bottom: .75em;
+}
+
+.cs-main {
+  --pad-vt: 3rem;
+  --pad-hz: 2rem;
+  padding: var(--pad-vt) var(--pad-hz);
+  background-color: var(--white);
+  overflow: hidden;
+  border-bottom: var(--border-thick);
+
+  @media (min-width: 760px) {
+    --pad-vt: 5rem;
+  }
+}
+
+.cs__rule {
+  --margin-bottom: 2rem;
+  margin-bottom: var(--margin-bottom);
+
+  @media (min-width: 760px) {
+    --margin-bottom: 3rem;
+  }
+}
+
+.artifact {
+  --margin-bottom: 1rem;
+  --grid-gap: 1rem;
+  margin-bottom: var(--margin-bottom);
+  width: 100%;
+  display: grid;
+  grid-gap: var(--grid-gap);
+  align-items: start;
+
+  @media (min-width: 760px) {
+    --margin-bottom: 3rem;
+  }
+}
+
+.artifact__figure {
+  margin: 0 0 2rem;
+}
+
+.artifact__img {
+  margin-bottom: 1rem;
+}
+
+
+// CrowdStreet artifact sections
+.artifact--cs-before {
+  --grid-gap: 2rem;
+  display: grid;
+  grid-template-areas: 
+      "figure"
+      "section-1"
+      "section-2";
+  grid-gap: var(--grid-gap);
+  
+  .artifact__figure {
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 1000px) {
+    --grid-gap: 3rem;
+    grid-template-areas: 
+      "figure section-1"
+      "section-2 section-2";
+  }
+
+  figure {
+    grid-area: figure;
+  }
+
+  .section-wrap--one {
+    grid-area: section-1;
+  }
+
+  .section-wrap--two {
+    grid-area: section-2;
+
+    @media (max-width: 759px) {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+
+// Walker Tracker artifact sections
+.artifact--wt-before {
+  --margin-bottom: 3rem;
+  --grid-gap: 2rem;
+  margin-bottom: var(--margin-bottom);
+  display: grid;
+  grid-template-columns: [left-edge] auto [right-edge];
+  grid-template-rows: auto;
+  grid-gap: var(--grid-gap);
+
+  .artifact__figure {
+    --margin-bottom: 0;
+  }
+
+  @media (min-width: 760px) {
+    --margin-bottom: 5rem;
+    --grid-gap: 3rem;
+    grid-template-columns: [left-edge] minmax(auto, 500px) [center] minmax(50%, 1fr) [right-edge];
+  }
+}
+
+.artifact--wt-hifi-mocks {
+  grid-template-columns: 1;
+  grid-template-areas:
+    "first"
+    "second"
+    "third";
+
+  @media (min-width: 1000px) {
+    --grid-gap: 2rem;
+    grid-template-columns: 2;
+    grid-template-areas:
+      "first first"
+      "second third";
+  }
+}
+
+.figure--first {
+  grid-area: first;
+}
+.figure--second {
+  grid-area: second;
+}
+.figure--third {
+  grid-area: third;
+}
