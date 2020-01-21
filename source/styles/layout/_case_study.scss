@@ -1,6 +1,6 @@
-.page-case-study {}
-
+// CrowdStreet & WalkerTracker case studies
 // Section header that animates on page load
+// Animation rules at page bottom
 .cs-header {
   overflow: hidden;
 
@@ -83,15 +83,14 @@
   margin-bottom: 1rem;
 }
 
-
 // CrowdStreet artifact sections
 .artifact--cs-before {
   --grid-gap: 2rem;
   display: grid;
   grid-template-areas: 
-      "figure"
-      "section-1"
-      "section-2";
+    "figure"
+    "section-1"
+    "section-2";
   grid-gap: var(--grid-gap);
   
   .artifact__figure {
@@ -122,7 +121,6 @@
   }
 }
 
-
 // Walker Tracker artifact sections
 .artifact--wt-before {
   --margin-bottom: 3rem;
@@ -133,14 +131,14 @@
   grid-template-rows: auto;
   grid-gap: var(--grid-gap);
 
-  .artifact__figure {
-    --margin-bottom: 0;
-  }
-
   @media (min-width: 760px) {
     --margin-bottom: 5rem;
     --grid-gap: 3rem;
     grid-template-columns: [left-edge] minmax(auto, 500px) [center] minmax(50%, 1fr) [right-edge];
+
+    .artifact__figure {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -168,4 +166,31 @@
 }
 .figure--third {
   grid-area: third;
+}
+
+// Animate the 'Case Study' span
+// Used in CrowdStreet & Walker Tracker case studies
+// Thanks to https://stackoverflow.com/questions/6805482/css3-transition-animation-on-load#12638711
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }

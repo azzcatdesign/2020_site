@@ -46,12 +46,10 @@
 }
 
 .menu__toggler.active > span::before {
-  -webkit-transform: rotate(-225deg);
           transform: rotate(-225deg);
 }
 
 .menu__toggler.active > span::after {
-  -webkit-transform: rotate(225deg);
           transform: rotate(225deg);
 }
 
@@ -67,7 +65,6 @@
   justify-content: center;
   background-color: transparent;
   transform: skew(-11deg);
-  // transition: 300ms left cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .menu.active {
@@ -106,7 +103,7 @@
   }
 }
 
-// menu from case-studies
+// menu from case-studies (CS & WT)
 .menu-wrap {
   padding-right: 1.7rem;
   position: sticky;

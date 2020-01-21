@@ -1,3 +1,6 @@
+// Fonts from Typekit/Adobe
+@import url("https://use.typekit.net/wvw4aci.css");
+
 body { 
   font-family: var(--font-body);
   font-weight: var(--font-weight-normal);
@@ -7,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
 
   // Uncomment to show the grid
-  //background-image: linear-gradient(to top, rgba(242, 201, 76, 0.25) 0, rgba(242, 201, 76, 0.25) 1px, transparent 1px);
+  // background-image: linear-gradient(to top, rgba(242, 201, 76, 0.25) 0, rgba(242, 201, 76, 0.25) 1px, transparent 1px);
   background-size: 400vh 8px;
 }
 
@@ -100,7 +103,7 @@ ul li {
   color: var(--color-off-white);
 }
 
-//// Specific font styles
+//// Specific font classes
 .t-view {
   font-family: var(--font-slab);
   font-size: var(--text-xxl);

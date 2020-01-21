@@ -1,8 +1,5 @@
-// Fonts from Typekit/Adobe
-@import url("https://use.typekit.net/wvw4aci.css");
-
 :root {
-  // Grays, as % of white
+  // grays, as % of white
   --black: hsl(0, 0%, 0%);
   --percent-3: hsl(0, 0%, 3%);
   --percent-5: hsl(0, 0%, 5%);
@@ -29,7 +26,7 @@
   --color-head-text: var(--percent-20);
   --color-body-bg: var(--color-light);
   --color-accent-link: hsl(347, 65%, 30%); // AAA
-  --color-accent-link-light: hsl(347, 65%, 55%); // AA larg 
+  --color-accent-link-light: hsl(347, 65%, 55%); // AA large 
 
   // font family
   --font-body: adelle, serif;
@@ -103,15 +100,8 @@
     --text-scale-ratio: 1.4;
   }
 
-  // @media (min-width: 1000px) {
-  //   // larger base size
-  //   //--text-base: 1.25em;  // 20px
-  //   --text-base: 1.375em;  // 22px
-  // }
-
   @media (min-width: 1440px) {
     // larger base size
-    //--text-base: 1.375em;  // 22px
     --text-base: 1.5em;  // 24px
   }   
 }

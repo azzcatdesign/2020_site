@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  //transition: all var(--timing) ease-in-out;
   transition: all var(--timing) cubic-bezier(0.77, 0, 0.175, 1);
 }
 

@@ -94,6 +94,8 @@
   grid-area: fff;
   
   &.work-item {
+
+    // no top border when butting up against thick black rule
     @media (min-width: 700px) {
       border-top: none;
     }
@@ -111,6 +113,7 @@
 
   &.work-item {
 
+    // no bottom border when butting up against thick black rule
     @media (min-width: 700px) {
       border-bottom: none;
     }
@@ -248,7 +251,6 @@
     outline: none;
   }
 }
-
 
 .work-item__title {
   margin-bottom: .25em; 

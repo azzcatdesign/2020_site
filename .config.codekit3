@@ -74,16 +74,6 @@
 		"oAP": "/dist/cs_case_study.html",
 		"oF": 0
 		},
-	"/source/icons/icons.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/dist/icons/icons.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"/source/images/Alma_TV_Series_alt_02.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -522,22 +512,6 @@
 		"oAP": "/dist/partials/_about.html",
 		"oF": 0
 		},
-	"/source/partials/_arrow_buttons.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dist/partials/_arrow_buttons.html",
-		"oF": 0
-		},
-	"/source/partials/_contact.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dist/partials/_contact.html",
-		"oF": 0
-		},
 	"/source/partials/_crowdstreet.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -629,7 +603,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/source/styles/common/_breakpoints.scss": {
+	"/source/styles/common/_general.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -637,20 +611,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/dist/styles/common/_breakpoints.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/source/styles/common/_h5bp.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 2,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/styles/common/_h5bp.css",
+		"oAP": "/dist/styles/common/_general.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -664,19 +625,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/styles/common/_helpers.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/source/styles/common/_mixins.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 2,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/styles/common/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -746,19 +694,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/source/styles/components/_icons.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 2,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/styles/components/_icons.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/source/styles/components/_links.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -785,19 +720,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/source/styles/layout/_cs_wt_cases.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 2,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/styles/layout/_cs_wt_cases.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/source/styles/layout/_footer.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -807,19 +729,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/styles/layout/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/source/styles/layout/_general.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"dS": 2,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/styles/layout/_general.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

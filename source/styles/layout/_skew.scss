@@ -15,8 +15,7 @@
     position: absolute;
     top: 0;
     left: var(--left);
-    z-index: 100;
-    
+    z-index: var(--z-high);  
     background-color: var(--color-accent);
     transform: skew(-11deg);
     
@@ -39,6 +38,7 @@
   z-index: 150;
   top: var(--top);
   left: var(--left);
+  color: var(--color-off-black);
   // add a touch of 'outline' behind text for separation when over accent line
   text-shadow:
    -1px -1px 0 var(--color-body-bg),  
@@ -52,6 +52,7 @@
   }
 }
 
+// useful polygon to set up skewed areas
 .polygon-11 {
   position: absolute;
   width: 300px;
@@ -62,6 +63,7 @@
   display: none;
 }
 
+// empty div for clip-path
 .skew-lead {
   --width: 450px;
   --height: 750px;

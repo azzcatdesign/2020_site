@@ -1,24 +1,17 @@
-// Uncomment and include after setting up new project in Codekit
-//@import "../../bower_components/normalize-css/normalize";
-//@import "../../bower_components/plumber-sass/plumber";
-
 @import "common/normalize";
 @import "common/variables";
 @import "common/helpers";
-@import "common/h5bp";
+@import "common/general";
 @import "common/typography";
 
 @import "components/buttons";
 @import "components/forms";
-//@import "components/icons";
 @import "components/links";
 
-@import "layout/cs_wt_cases";
-@import "layout/footer";
-@import "layout/general";
 @import "layout/layout";
 @import "layout/nav";
 @import "layout/hero";
 @import "layout/skew";
 @import "layout/work";
 @import "layout/case_study";
+@import "layout/footer";
