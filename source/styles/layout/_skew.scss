@@ -32,11 +32,13 @@
 }
 
 .skew-head {
+  --top: -1rem;
+  --left: 1rem;
   font-size: 3rem;
   position: absolute;
   z-index: 150;
-  top: -1rem;
-  left: 1rem;
+  top: var(--top);
+  left: var(--left);
   // add a touch of 'outline' behind text for separation when over accent line
   text-shadow:
    -1px -1px 0 var(--color-body-bg),  
@@ -45,7 +47,8 @@
      1px 1px 0 var(--color-body-bg);
 
   @media (min-width: 510px) {
-    top: 1rem;
+    --top: 1rem;
+    --left: 2rem;
   }
 }
 

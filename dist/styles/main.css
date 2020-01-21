@@ -1,4 +1,344 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
 @import url("https://use.typekit.net/wvw4aci.css");
+/* line 11, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 133, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 137, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
+[hidden] {
+  display: none; }
+
 /* line 4, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_variables.scss */
 :root {
   --black: hsl(0, 0%, 0%);
@@ -232,73 +572,8 @@
 .invisible {
   visibility: hidden; }
 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */ }
-
-@media print {
-  /* line 43, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_breakpoints.scss */
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important; }
-  /* line 53, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_breakpoints.scss */
-  a,
-  a:visited {
-    text-decoration: underline; }
-  /* line 58, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_breakpoints.scss */
-  a[href]:after {
-    content: " (" attr(href) ")"; }
-  /* line 62, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_breakpoints.scss */
-  abbr[title]:after {
-    content: " (" attr(title) ")"; }
-  /*
-    * Don't show links that are fragment identifiers,
-    * or use the `javascript:` pseudo protocol
-    */
-  /* line 71, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_breakpoints.scss */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: ""; }
-  /* line 76, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_breakpoints.scss */
-  pre {
-    white-space: pre-wrap !important; }
-  /* line 79, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_breakpoints.scss */
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid; }
-  /*
-    * Printing Tables:
-    * http://css-discuss.incutio.com/wiki/Printing_Tables
-    */
-  /* line 90, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_breakpoints.scss */
-  thead {
-    display: table-header-group; }
-  /* line 94, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_breakpoints.scss */
-  tr,
-  img {
-    page-break-inside: avoid; }
-  /* line 99, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_breakpoints.scss */
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3; }
-  /* line 106, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_breakpoints.scss */
-  h2,
-  h3 {
-    page-break-after: avoid; } }
-
-/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+/*! HTML5 Boilerplate v7.3.0 | MIT License | https://html5boilerplate.com/ */
+/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -316,11 +591,11 @@
  *
  * Customize the background color to match your design.
  */
-/* line 29, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
+/* line 30, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
 ::-moz-selection {
   text-shadow: none; }
 
-/* line 34, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
+/* line 35, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
 ::-moz-selection {
   text-shadow: none; }
 ::selection {
@@ -329,7 +604,7 @@
 /*
  * A better looking default horizontal rule
  */
-/* line 43, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
+/* line 44, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
 hr {
   display: block;
   height: 1px;
@@ -343,7 +618,7 @@ hr {
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
-/* line 58, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
+/* line 59, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
 audio,
 canvas,
 iframe,
@@ -355,7 +630,7 @@ video {
 /*
  * Remove default fieldset styles.
  */
-/* line 71, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
+/* line 72, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -364,14 +639,14 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 81, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
+/* line 82, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
 textarea {
   resize: vertical; }
 
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
-/* line 89, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
+/* line 90, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -381,7 +656,7 @@ textarea {
 /* ==========================================================================
    Azzcat Additions
    ========================================================================== */
-/* line 100, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
+/* line 101, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_h5bp.scss */
 :root {
   scroll-behavior: smooth; }
 
@@ -534,29 +809,6 @@ ul li {
 .t-cs-sub-subtitle {
   font-weight: var(--font-weight-light); }
 
-/* ASPECT RATIO
- * If you want a consistent look across different screen sizes you will find this aspect ratio mixin useful. It maintains the aspect ratio at any screen size. To use this mixin, you need two HTML elements: an outer and an inner one. The mixin calculates the aspect ratio of the two elements and maintains that at any resolution.
- */
-/* FULL WIDTH
- * Break out of parent container
- */
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-/*
- * CLEARFIX MIXIN FOR @INCLUDE
- */
-/*
- * CLEARFIX PLACEHOLDER FOR @EXTEND
- */
 /* line 1, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_buttons.scss */
 .button {
   padding: 2rem;
@@ -603,141 +855,6 @@ ul li {
   .contact-form .button {
     margin: 2rem 0;
     width: 100%; }
-
-/* Generated using nucleoapp.com */
-/* --------------------------------
-Icon colors
--------------------------------- */
-/* line 5, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-:root {
-  --icon-color-primary: #111111;
-  --icon-color-secondary: inherit;
-  --icon-size-xs: 0.5em;
-  --icon-size-sm: 0.8em;
-  --icon-size-lg: 1.6em;
-  --icon-size-xl: 2em; }
-
-/* line 15, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon {
-  display: inline-block;
-  /* icon primary color */
-  color: var(--icon-color-primary);
-  height: 1em;
-  width: 1em; }
-
-/* line 23, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon use {
-  /* icon secondary color - fill */
-  fill: var(--icon-color-secondary); }
-
-/* line 28, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon.icon--outline use {
-  /* icon secondary color - stroke */
-  stroke: var(--icon-color-secondary); }
-
-/* --------------------------------
-Change icon size
--------------------------------- */
-/* line 37, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon--xs {
-  height: var(--icon-size-xs);
-  width: var(--icon-size-xs); }
-
-/* line 42, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon--sm {
-  height: var(--icon-size-sm);
-  width: var(--icon-size-sm); }
-
-/* line 47, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon--lg {
-  height: var(--icon-size-lg);
-  width: var(--icon-size-lg); }
-
-/* line 52, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon--xl {
-  height: var(--icon-size-xl);
-  width: var(--icon-size-xl); }
-
-/* --------------------------------
-Align icon and text
--------------------------------- */
-/* line 61, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon-text-aligner {
-  /* add this class to parent element that contains icon + text */
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center; }
-
-/* line 67, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon-text-aligner .icon {
-  color: inherit;
-  margin-right: 0.4em;
-  flex-shrink: 0; }
-
-/* line 73, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon-text-aligner .icon.icon--align-right {
-  margin-right: 0;
-  margin-left: 0.4em; }
-
-/* line 78, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon-text-aligner .icon use {
-  color: inherit;
-  fill: currentColor; }
-
-/* line 83, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon-text-aligner .icon.icon--outline use {
-  stroke: currentColor; }
-
-/* --------------------------------
-Icon reset values - used to enable color customizations
--------------------------------- */
-/* line 91, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon {
-  fill: currentColor;
-  stroke: none; }
-
-/* line 96, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon.icon--outline {
-  fill: none;
-  stroke: currentColor; }
-
-/* line 101, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon use {
-  stroke: none; }
-
-/* line 105, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon.icon--outline use {
-  fill: none; }
-
-/* --------------------------------
-Stroke effects - Nucleo outline icons
-
-- 16px icons -> up to 1px stroke (16px outline icons do not support stroke changes)
-- 24px, 32px icons -> up to 2px stroke
-- 48px, 64px icons -> up to 4px stroke
--------------------------------- */
-/* line 117, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon--outline.icon--stroke-1 {
-  stroke-width: 1px; }
-
-/* line 121, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon--outline.icon--stroke-2 {
-  stroke-width: 2px; }
-
-/* line 125, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon--outline.icon--stroke-3 {
-  stroke-width: 3px; }
-
-/* line 129, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon--outline.icon--stroke-4 {
-  stroke-width: 4px; }
-
-/* line 133, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_icons.scss */
-.icon--outline.icon--stroke-1 use,
-.icon--outline.icon--stroke-3 use {
-  -webkit-transform: translateX(0.5px) translateY(0.5px);
-  transform: translateX(0.5px) translateY(0.5px); }
 
 /* line 2, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_links.scss */
 .inline-link {
@@ -883,6 +1000,7 @@ Stroke effects - Nucleo outline icons
 /* line 71, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
 .socials {
   margin: 0;
+  margin-bottom: 2rem;
   padding: 0;
   display: -webkit-box;
   display: flex;
@@ -890,11 +1008,11 @@ Stroke effects - Nucleo outline icons
           justify-content: space-between;
   list-style-type: none; }
 
-/* line 80, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
+/* line 81, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
 .social {
   margin: 0; }
 
-/* line 85, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
+/* line 86, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
 .colophon-wrap {
   padding: 0 0 2rem; }
 
@@ -1246,18 +1364,21 @@ img {
 
 /* line 34, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
 .skew-head {
+  --top: -1rem;
+  --left: 1rem;
   font-size: 3rem;
   position: absolute;
   z-index: 150;
-  top: -1rem;
-  left: 1rem;
+  top: var(--top);
+  left: var(--left);
   text-shadow: -1px -1px 0 var(--color-body-bg), 1px -1px 0 var(--color-body-bg), -1px 1px 0 var(--color-body-bg), 1px 1px 0 var(--color-body-bg); }
   @media (min-width: 510px) {
     /* line 34, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-head {
-      top: 1rem; } }
+      --top: 1rem;
+      --left: 2rem; } }
 
-/* line 52, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
+/* line 55, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
 .polygon-11 {
   position: absolute;
   width: 300px;
@@ -1267,7 +1388,7 @@ img {
   opacity: .5;
   display: none; }
 
-/* line 62, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
+/* line 65, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
 .skew-lead {
   --width: 450px;
   --height: 750px;
@@ -1281,19 +1402,19 @@ img {
           clip-path: polygon(0 0, 100% 0%, 68.5% 100%, 0% 100%);
   shape-outside: polygon(0 0, 100% 0%, 68.5% 100%, 0% 100%); }
   @media (min-width: 510px) and (max-width: 1399px) {
-    /* line 62, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
+    /* line 65, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-lead {
       --width: 300px;
       --height: 500px;
       --left: -100px; } }
   @media (min-width: 1400px) {
-    /* line 62, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
+    /* line 65, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-lead {
       --width: 360px;
       --height: 600px;
       --left: -200px; } }
 
-/* line 87, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
+/* line 90, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
 .skew-follow {
   --width: calc(95vw + 310px);
   --left: -310px;
@@ -1301,28 +1422,28 @@ img {
   position: relative;
   left: var(--left); }
   @media (min-width: 510px) and (max-width: 999px) {
-    /* line 87, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
+    /* line 90, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-follow {
       --width: calc(95vw + 170px);
       --left: -170px; } }
   @media (min-width: 1000px) and (max-width: 1399px) {
-    /* line 87, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
+    /* line 90, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-follow {
       --width: 1100px;
       --left: -120px; } }
   @media (min-width: 1400px) {
-    /* line 87, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
+    /* line 90, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-follow {
       --width: 1100px;
       --left: -170px; } }
 
-/* line 110, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
+/* line 113, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
 .skew-follow--about {
   --pad-vt: 4.5rem;
   padding-top: var(--pad-vt);
   padding-bottom: var(--pad-vt); }
   @media (min-width: 510px) {
-    /* line 110, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
+    /* line 113, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-follow--about {
       --pad-vt: 7rem; } }
 
@@ -1375,67 +1496,63 @@ img {
   --grid-gap: 1rem;
   display: grid;
   grid-gap: var(--grid-gap);
-  grid-template-rows: auto;
-  grid-template-columns: 1;
   grid-template-areas: "kolcraft" "fff" "wt-style-tiles" "cs-home" "cs-business" "cs-marketplace" "es" "wt-user-flows" "wt-mockups";
   position: relative;
   z-index: 100var --z-high; }
   @media (min-width: 700px) {
     /* line 48, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-grid {
-      grid-template-columns: repeat(7, 1fr);
-      grid-template-rows: repeat(11, 1fr);
       grid-template-areas: ". . . . . fff fff" "kolcraft kolcraft kolcraft kolcraft . fff fff" "kolcraft kolcraft kolcraft kolcraft wt-style-tiles wt-style-tiles ." ". . . . wt-style-tiles wt-style-tiles ." "cs-home cs-home cs-business cs-business wt-style-tiles wt-style-tiles ." "cs-home cs-home cs-business cs-business . es es" ". cs-marketplace cs-marketplace cs-marketplace cs-marketplace es es" ". cs-marketplace cs-marketplace cs-marketplace cs-marketplace . ." "wt-user-flows wt-user-flows wt-user-flows . . . ." "wt-user-flows wt-user-flows wt-user-flows wt-mockups wt-mockups wt-mockups ." ". . . wt-mockups wt-mockups wt-mockups ."; } }
   @media (min-width: 1440px) {
     /* line 48, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-grid {
       --grid-gap: 3rem; } }
 
-/* line 89, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 85, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .kolcraft {
   grid-area: kolcraft; }
 
-/* line 93, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 89, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .es {
   grid-area: es; }
 
-/* line 97, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 93, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .fff {
   grid-area: fff; }
   @media (min-width: 700px) {
-    /* line 100, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+    /* line 96, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .fff.work-item {
       border-top: none; } }
 
-/* line 107, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 103, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .wt-style-tiles {
   grid-area: wt-style-tiles; }
 
-/* line 110, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 106, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .wt-user-flows {
   grid-area: wt-user-flows; }
 
-/* line 113, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 109, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .wt-mockups {
   grid-area: wt-mockups; }
   @media (min-width: 700px) {
-    /* line 116, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+    /* line 112, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .wt-mockups.work-item {
       border-bottom: none; } }
 
-/* line 124, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 120, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .cs-home {
   grid-area: cs-home; }
 
-/* line 127, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 123, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .cs-business {
   grid-area: cs-business; }
 
-/* line 130, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 126, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .cs-marketplace {
   grid-area: cs-marketplace; }
 
-/* line 134, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 130, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .work-item {
   --pad-edge: .5rem;
   --min-height: 8rem;
@@ -1452,7 +1569,7 @@ img {
   border-right: var(--border-width) solid var(--percent-20);
   border-bottom: 1px solid var(--color-accent);
   border-left: 1px solid var(--color-accent); }
-  /* line 151, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 147, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item .link-rotate {
     display: inline-block;
     position: absolute;
@@ -1463,29 +1580,29 @@ img {
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg); }
   @media (min-width: 1000px) and (max-width: 1439px) {
-    /* line 134, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+    /* line 130, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-item {
       --min-height: 16rem;
       --border-width: 2rem; } }
   @media (min-width: 1440px) {
-    /* line 134, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+    /* line 130, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-item {
       --min-height: 24rem;
       --border-width: 2.5rem; } }
-  /* line 172, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 168, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item:focus-within, .work-item:hover {
     cursor: pointer;
     border-right: var(--border-width) solid var(--color-accent-link-light); }
-    /* line 177, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+    /* line 173, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-item:focus-within .case-study, .work-item:hover .case-study {
       color: var(--color-accent-link); }
-    /* line 181, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+    /* line 177, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-item:focus-within .link-rotate, .work-item:hover .link-rotate {
       color: var(--color-body-text); }
-  /* line 186, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 182, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item:focus-within {
     outline: 4px solid var(--color-body-text); }
-  /* line 190, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 186, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item::before {
     content: "";
     width: 100%;
@@ -1497,7 +1614,7 @@ img {
     -webkit-filter: grayscale(100%);
             filter: grayscale(100%);
     z-index: var(--z-minus); }
-  /* line 202, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 198, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item::after {
     content: "";
     width: 100%;
@@ -1505,39 +1622,39 @@ img {
     top: 0;
     left: 0;
     position: absolute;
-    background: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.4)));
-    background: linear-gradient(white, rgba(255, 255, 255, 0.4));
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.35)));
+    background: linear-gradient(white, rgba(255, 255, 255, 0.35));
     z-index: var(--z-minus); }
-  /* line 213, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 209, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.kolcraft::before {
     background-image: url("../images/kolcraft_crib.jpg"); }
-  /* line 216, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 212, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.es::before {
     background-image: url("../images/es_web.jpg"); }
-  /* line 219, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 215, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.fff::before {
     background-image: url("../images/fff_grab.jpg");
     background-position: center center; }
-  /* line 223, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 219, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.wt-style-tiles::before {
     background-image: url("../images/wt_style_grab.jpg"); }
-  /* line 226, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 222, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.wt-user-flows::before {
     background-image: url("../images/wt_user_flow.png"); }
-  /* line 229, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 225, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.wt-mockups::before {
     background-image: url("../images/wt_mockups_grab.jpg"); }
-  /* line 232, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 228, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.cs-home::before {
     background-image: url("../images/cs_home_sketch_grab.jpg"); }
-  /* line 235, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 231, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.cs-business::before {
     background-image: url("../images/cs_business_sketch_grab.jpg"); }
-  /* line 238, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 234, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.cs-marketplace::before {
     background-image: url("../images/cs_marketplace_sketch_grab.jpg"); }
 
-/* line 243, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 239, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .work-item__link {
   width: 100%;
   height: 100%;
@@ -1545,15 +1662,15 @@ img {
   top: 0;
   left: 0;
   display: block; }
-  /* line 251, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+  /* line 247, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item__link:focus {
     outline: none; }
 
-/* line 257, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 253, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .work-item__title {
   margin-bottom: .25em; }
 
-/* line 261, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
+/* line 257, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .case-study {
   font-size: var(--text-md);
   line-height: var(--line-height-xs); }

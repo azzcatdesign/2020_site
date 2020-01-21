@@ -2,16 +2,15 @@
 //@import "../../bower_components/normalize-css/normalize";
 //@import "../../bower_components/plumber-sass/plumber";
 
+@import "common/normalize";
 @import "common/variables";
 @import "common/helpers";
-@import "common/breakpoints";
 @import "common/h5bp";
 @import "common/typography";
-@import "common/mixins";
 
 @import "components/buttons";
 @import "components/forms";
-@import "components/icons";
+//@import "components/icons";
 @import "components/links";
 
 @import "layout/cs_wt_cases";

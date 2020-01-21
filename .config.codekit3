@@ -594,28 +594,12 @@
 		"oAP": "/dist/partials/_icons.html",
 		"oF": 0
 		},
-	"/source/partials/_intro.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dist/partials/_intro.html",
-		"oF": 0
-		},
 	"/source/partials/_navigation.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dist/partials/_navigation.html",
-		"oF": 0
-		},
-	"/source/partials/_portfolio.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dist/partials/_portfolio.html",
 		"oF": 0
 		},
 	"/source/partials/_walker_tracker.kit": {
@@ -693,6 +677,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/styles/common/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/source/styles/common/_normalize.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 2,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/styles/common/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
