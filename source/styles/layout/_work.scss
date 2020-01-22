@@ -60,7 +60,7 @@
     "wt-user-flows"
     "wt-mockups";  
   position: relative;
-  z-index: 100var(--z-high);
+  z-index: var(--z-high);
 
   @media (min-width: 700px){
     grid-template-areas:

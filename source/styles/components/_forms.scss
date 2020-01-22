@@ -10,12 +10,12 @@
 
   input,
   textarea {
+    padding-left: 1em;
     width: 100%;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid var(--color-accent-link);
-    color: var(--white);
-    line-height: 3;
+    line-height: var(--line-height-xl);
   }
 
   .button {
