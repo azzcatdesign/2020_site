@@ -50,6 +50,7 @@
   display: grid;
   grid-gap: var(--grid-gap);
   grid-template-areas: 
+    "dockyard"
     "kolcraft"
     "fff"
     "wt-style-tiles"
@@ -64,7 +65,8 @@
 
   @media (min-width: 700px){
     grid-template-areas:
-    ". . . . . fff fff"
+    ". . dockyard dockyard dockyard . ."
+    ". . dockyard dockyard dockyard fff fff"
     "kolcraft kolcraft kolcraft kolcraft . fff fff"
     "kolcraft kolcraft kolcraft kolcraft wt-style-tiles wt-style-tiles ."
     ". . . . wt-style-tiles wt-style-tiles ."
@@ -82,6 +84,18 @@
   } 
 }
 
+.dockyard {
+  grid-area: dockyard;
+
+  &.work-item {
+
+    // no top border when butting up against thick black rule
+    @media (min-width: 700px) {
+      border-top: none;
+    }
+  }
+}
+
 .kolcraft {
   grid-area: kolcraft;
 }
@@ -92,14 +106,6 @@
 
 .fff {
   grid-area: fff;
-  
-  &.work-item {
-
-    // no top border when butting up against thick black rule
-    @media (min-width: 700px) {
-      border-top: none;
-    }
-  }
 }
 
 .wt-style-tiles {
@@ -207,6 +213,12 @@
     position: absolute;
     background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.35));
     z-index: var(--z-minus);
+  }
+
+  &.dockyard::before {
+    background-image: url("../images/dy_home_grab.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   &.kolcraft::before {

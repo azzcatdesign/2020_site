@@ -282,6 +282,39 @@
 		"oAP": "/dist/images/Developer_Mobile.pdf",
 		"oF": 1
 		},
+	"/source/images/dy_home_grab.png": {
+		"ft": 32768,
+		"iS": 563524,
+		"oA": 0,
+		"oAP": "/dist/images/dy_home_grab.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/images/dy_variables.png": {
+		"ft": 32768,
+		"iS": 854673,
+		"oA": 0,
+		"oAP": "/dist/images/dy_variables.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/images/dy_variables_grab.png": {
+		"ft": 32768,
+		"iS": 522160,
+		"oA": 0,
+		"oAP": "/dist/images/dy_variables_grab.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/source/images/es_rollup_banner.jpg": {
 		"ft": 16384,
 		"iS": 892523,
@@ -840,7 +873,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601343766.96431005
+	"lastBuiltDate": 602304516.41027403
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
