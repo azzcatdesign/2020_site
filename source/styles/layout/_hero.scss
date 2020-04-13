@@ -19,32 +19,32 @@
 }
 
 .name-segment--first {
-  top: -.325em;
-  left: -.05em;
+  top: -0.325em;
+  left: -0.05em;
 }
 
 .name-segment--last {
-  bottom: -.1675em;
-  right: -.05em;
+  bottom: -0.1675em;
+  right: -0.05em;
 }
 
 .title {
   display: inline-flex;
   position: relative;
   color: var(--color-off-black);
-  
+
   &::before {
     content: "";
     position: absolute;
     z-index: var(--z-normal);
     left: 0;
     top: 0;
-    right: .375em;
+    right: 0.375em;
     bottom: 0;
     background: white;
     transform: skew(-11deg);
   }
-  
+
   // don't break the title on very small viewport
   @media (max-width: 419px) {
     &.t-xl {
@@ -54,7 +54,7 @@
 }
 
 .title-segment {
-  padding: .5em;
+  padding: 0.5em;
   display: inline;
 }
 
@@ -67,9 +67,9 @@
 }
 
 .title-segment--one {
-  --top: .265em;
-  padding-right: .75em;
-  padding-left: .75em;
+  --top: 0.265em;
+  padding-right: 0.75em;
+  padding-left: 0.75em;
   position: relative;
   top: var(--top);
   font-family: var(--font-slab);
@@ -78,30 +78,30 @@
 
   // keep those baselines perfectly aligned!
   @media (min-width: 760px) and (max-width: 999px) {
-    --top: .2em;
+    --top: 0.2em;
   }
 
   @media (min-width: 1000px) and (max-width: 1439px) {
-    --top: .225em;
+    --top: 0.225em;
   }
 
   @media (min-width: 1440px) {
-    --top: .25em;
+    --top: 0.25em;
   }
-  
+
   &::after {
     --width: 3px;
     content: "";
     width: var(--width);
-    height: 300%;  
+    height: 300%;
     position: absolute;
-    right: .3em;
+    right: 0.3em;
     top: -100%;
-    z-index: 5;    
+    z-index: 5;
     display: inline-block;
     background-color: var(--color-accent);
     transform: skew(-11deg);
-    
+
     @media (min-width: 1000px) {
       --width: 5px;
     }
@@ -109,38 +109,34 @@
 }
 
 .title-segment--two {
-  padding-right: .225em;
-  padding-left: .25em;
+  padding-right: 0.225em;
+  padding-left: 0.25em;
   position: relative;
   font-family: var(--font-mono);
   font-size: calc(100% * 1.25);
   color: var(--color-off-white);
   background-color: var(--color-off-black);
-  
+
   &::before,
   &::after {
     content: "";
-    // not 100% b/c there's a tiny little gap showing at some breakpoints
-    height: 99.99%;
-    width: .5em;
+    /* There's a tiny little gap showing at some breakpoints, even after resizing this to a fraction less than 100%. Seems to be a Chrome bug. */
+    height: 100%;
+    width: 0.5em;
     top: 0;
     display: inline-block;
-    position: absolute;    
+    position: absolute;
     background: var(--color-off-black);
     transform: skew(-11deg);
-
-    @media (min-width: 1000px) {
-      height: 99.99%;
-    }
   }
-  
+
   &::before {
     top: 0;
-    left: -.25em; 
+    left: -0.25em;
   }
-  
+
   &::after {
     top: 0;
-    right: -.25em;
+    right: -0.25em;
   }
 }

@@ -1,7 +1,7 @@
 // Fonts from Typekit/Adobe
 @import url("https://use.typekit.net/wvw4aci.css");
 
-body { 
+body {
   font-family: var(--font-body);
   font-weight: var(--font-weight-normal);
   line-height: var(--line-height-md);
@@ -15,79 +15,125 @@ body {
 }
 
 // Starting computed font-sizes at small
-.t-xs { font-size: var(--text-xs); }
-.t-sm { font-size: var(--text-sm); }
-.t-base { font-size: var(--text-base); }
-.t-md { font-size: var(--text-md); }
-.t-lg { font-size: var(--text-lg); }
-.t-xl { font-size: var(--text-xl); }
-.t-xxl { font-size: var(--text-xxl); }
-.t-xxxl { font-size: var(--text-xxxl); }
+.t-xs {
+  font-size: var(--text-xs);
+}
+
+.t-sm {
+  font-size: var(--text-sm);
+}
+
+.t-base {
+  font-size: var(--text-base);
+}
+
+.t-md {
+  font-size: var(--text-md);
+}
+
+.t-lg {
+  font-size: var(--text-lg);
+}
+
+.t-xl {
+  font-size: var(--text-xl);
+}
+
+.t-xxl {
+  font-size: var(--text-xxl);
+}
+
+.t-xxxl {
+  font-size: var(--text-xxxl);
+}
 
 .display {
   font-size: var(--text-xxxl);
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: var(--text-xxl);
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: var(--text-xl);
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: var(--text-lg);
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: var(--text-md);
 }
 
-h5, .h5,
+h5,
+.h5,
 p,
 ol li,
 ul li {
   font-size: var(--text-base);
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: var(--text-sm);
 }
 
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4 {  
-  font-family: var(--font-head); 
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+  font-family: var(--font-head);
   color: var(--color-head-text);
 }
 
-h1, .h1,
-h2, .h2 {
+h1,
+.h1,
+h2,
+.h2 {
   line-height: var(--line-height-xs);
   font-weight: 700;
 }
 
-h3, .h3,
-h4, .h4 {
+h3,
+.h3,
+h4,
+.h4 {
   line-height: var(--line-height-xs);
 }
 
-h5, .h5,
-h6, .h6 {
+h5,
+.h5,
+h6,
+.h6 {
   letter-spacing: var(--letter-spacing-loose);
 }
 
-h6, .h6 {
+h6,
+.h6 {
   text-transform: uppercase;
 }
 
-code, pre {
+code,
+pre {
   font-family: var(--font-mono);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -99,7 +145,7 @@ ul li {
 }
 
 ::selection {
-  background: var(--color-link);
+  background: var(--color-accent-link);
   color: var(--color-off-white);
 }
 
@@ -115,14 +161,14 @@ ul li {
   font-family: var(--font-slab);
   font-size: var(--text-md);
   font-style: italic;
-  font-weight: var(--font-weight-light); 
+  font-weight: var(--font-weight-light);
 }
 
 .t-caption {
   font-family: var(--font-slab);
   font-size: var(--text-sm);
   font-style: italic;
-  font-weight: var(--font-weight-light);    
+  font-weight: var(--font-weight-light);
 }
 
 .t-cs-sub-subtitle {
