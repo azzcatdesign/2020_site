@@ -32,18 +32,7 @@
   display: inline-flex;
   position: relative;
   color: var(--color-off-black);
-
-  &::before {
-    content: "";
-    position: absolute;
-    z-index: var(--z-normal);
-    left: 0;
-    top: 0;
-    right: 0.375em;
-    bottom: 0;
-    background: white;
-    transform: skew(-11deg);
-  }
+  transform: skew(-11deg);
 
   // don't break the title on very small viewport
   @media (max-width: 419px) {
@@ -53,17 +42,18 @@
   }
 }
 
-.title-segment {
-  padding: 0.5em;
-  display: inline;
-}
-
 .title-wrap {
   width: 100%;
   height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.title-segment {
+  padding: 0.5em;
+  display: inline;
+  transform: skew(11deg);
 }
 
 .title-segment--one {
@@ -87,6 +77,30 @@
 
   @media (min-width: 1440px) {
     --top: 0.25em;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: var(--z-minus);
+    top: -0.2em;
+    right: 0.375em;
+    bottom: 0.2em;
+    left: 0;    
+    background: white;
+    transform: skew(-11deg); 
+    
+    @media (min-width: 1000px) and (max-width: 1439px) {
+      top: -0.225em;
+      right: 0;
+      bottom: 0.225em;
+    }
+  
+    @media (min-width: 1440px) {
+      top: -0.25em;
+      right: 0;
+      bottom: 0.25em;
+    }
   }
 
   &::after {
