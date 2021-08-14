@@ -6,7 +6,6 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://use.typekit.net/wvw4aci.css");
-/* line 11, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -18,14 +17,12 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 body {
   margin: 0; }
 
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 31, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 main {
   display: block; }
 
@@ -33,7 +30,6 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 40, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -44,7 +40,6 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 53, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -57,7 +52,6 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 64, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -69,7 +63,6 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 76, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 a {
   background-color: transparent; }
 
@@ -77,7 +70,6 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 85, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -90,7 +82,6 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 95, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 b,
 strong {
   font-weight: bolder; }
@@ -99,7 +90,6 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 105, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 code,
 kbd,
 samp {
@@ -111,7 +101,6 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 116, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 small {
   font-size: 80%; }
 
@@ -119,7 +108,6 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 125, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -127,11 +115,9 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 133, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 137, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 sup {
   top: -0.5em; }
 
@@ -140,7 +126,6 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 148, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 img {
   border-style: none; }
 
@@ -150,7 +135,6 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 160, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 button,
 input,
 optgroup,
@@ -169,7 +153,6 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 176, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -179,7 +162,6 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 186, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -188,7 +170,6 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 195, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -198,7 +179,6 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 206, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -209,7 +189,6 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 218, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -219,7 +198,6 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 229, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em; }
 
@@ -229,7 +207,6 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 240, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -247,14 +224,12 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 253, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 progress {
   vertical-align: baseline; }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 261, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -262,7 +237,6 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 270, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -273,7 +247,6 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 280, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -282,7 +255,6 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 290, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -292,7 +264,6 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 299, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
@@ -300,7 +271,6 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 308, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -312,14 +282,12 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 320, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 details {
   display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
-/* line 328, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 summary {
   display: list-item; }
 
@@ -328,18 +296,15 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 339, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 template {
   display: none; }
 
 /**
  * Add the correct display in IE 10.
  */
-/* line 347, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_normalize.scss */
 [hidden] {
   display: none; }
 
-/* line 1, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_variables.scss */
 :root {
   --black: hsl(0, 0%, 0%);
   --percent-3: hsl(0, 0%, 3%);
@@ -407,115 +372,93 @@ template {
   --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
   /* RESPONSIVE TYPE */ }
   @media (min-width: 1000px) {
-    /* line 1, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_variables.scss */
     :root {
       --text-base: 1.125em;
       --text-scale-ratio: 1.4; } }
   @media (min-width: 1440px) {
-    /* line 1, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_variables.scss */
     :root {
       --text-base: 1.5em; } }
 /* HELPERS
  * Helper files to extend or toss into Inspector
  */
-/* line 6, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .debug {
   border: 1px solid red; }
 
-/* line 11, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .debugB {
   border: 1px dotted blue; }
 
-/* line 16, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .debugG {
   border: 1px dotted green; }
 
-/* line 21, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .debugO {
   border: 1px dashed orange; }
 
-/* line 26, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .debugP {
   border: 1px dashed purple; }
 
-/* line 31, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .debugY {
   border: 1px solid yellow; }
 
-/* line 37, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .left {
   float: left; }
 
-/* line 42, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .right {
   float: right; }
 
-/* line 48, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .circle {
   border-radius: 50%; }
 
-/* line 58, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .no-list-style {
   list-style: none; }
 
-/* line 64, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 .colophon, .button,
 .tac {
   text-align: center; }
 
-/* line 69, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .tal {
   text-align: left; }
 
-/* line 74, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .tar {
   text-align: right; }
 
-/* line 81, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden; }
 
-/* line 88, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .ib {
   display: inline-block; }
 
-/* line 93, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .no-underline {
   text-decoration: none; }
 
-/* line 98, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .place-holder {
   border: 1px solid transparent; }
 
-/* line 103, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .rcaps {
   text-transform: capitalize; }
 
-/* line 108, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 
 .s-caps {
   font-variant: small-caps; }
 
-/* line 113, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 .contact-form label, .button,
 .uc {
   text-transform: uppercase; }
@@ -523,7 +466,6 @@ template {
 /*
  * Hide visually and from screen readers
  */
-/* line 122, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 .hidden {
   display: none !important; }
 
@@ -535,7 +477,6 @@ template {
  *    causes content to wrap 1 word per line:
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
-/* line 136, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -553,7 +494,6 @@ template {
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
-/* line 155, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -567,34 +507,28 @@ template {
 /*
  * Hide visually and from screen readers, but maintain layout
  */
-/* line 170, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_helpers.scss */
 .invisible {
   visibility: hidden; }
 
-/* line 1, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_general.scss */
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: all var(--timing) cubic-bezier(0.77, 0, 0.175, 1); }
 
-/* line 7, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_general.scss */
 :focus {
   outline-color: var(--color-accent);
   outline-style: solid;
   outline-width: 3px; }
 
-/* line 13, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_general.scss */
 body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
   background-color: var(--color-light); }
 
-/* line 22, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_general.scss */
 img {
   max-width: 100%; }
 
-/* line 4, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 body {
   font-family: var(--font-body);
   font-weight: var(--font-weight-normal);
@@ -604,63 +538,49 @@ body {
   -webkit-font-smoothing: antialiased;
   background-size: 400vh 8px; }
 
-/* line 18, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .t-xs {
   font-size: var(--text-xs); }
 
-/* line 22, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .t-sm {
   font-size: var(--text-sm); }
 
-/* line 26, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .t-base {
   font-size: var(--text-base); }
 
-/* line 30, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .t-md {
   font-size: var(--text-md); }
 
-/* line 34, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .t-lg {
   font-size: var(--text-lg); }
 
-/* line 38, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .t-xl {
   font-size: var(--text-xl); }
 
-/* line 42, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .t-xxl {
   font-size: var(--text-xxl); }
 
-/* line 46, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .t-xxxl {
   font-size: var(--text-xxxl); }
 
-/* line 50, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .display {
   font-size: var(--text-xxxl); }
 
-/* line 54, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 h1,
 .h1 {
   font-size: var(--text-xxl); }
 
-/* line 59, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 h2,
 .h2 {
   font-size: var(--text-xl); }
 
-/* line 64, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 h3,
 .h3 {
   font-size: var(--text-lg); }
 
-/* line 69, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 h4,
 .h4 {
   font-size: var(--text-md); }
 
-/* line 74, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 h5,
 .h5,
 p,
@@ -668,12 +588,10 @@ ol li,
 ul li {
   font-size: var(--text-base); }
 
-/* line 82, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 h6,
 .h6 {
   font-size: var(--text-sm); }
 
-/* line 87, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 h1,
 .h1,
 h2,
@@ -685,7 +603,6 @@ h4,
   font-family: var(--font-head);
   color: var(--color-head-text); }
 
-/* line 99, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 h1,
 .h1,
 h2,
@@ -693,31 +610,26 @@ h2,
   line-height: var(--line-height-xs);
   font-weight: 700; }
 
-/* line 107, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 h3,
 .h3,
 h4,
 .h4 {
   line-height: var(--line-height-xs); }
 
-/* line 114, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 h5,
 .h5,
 h6,
 .h6 {
   letter-spacing: var(--letter-spacing-loose); }
 
-/* line 121, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 h6,
 .h6 {
   text-transform: uppercase; }
 
-/* line 126, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 code,
 pre {
   font-family: var(--font-mono); }
 
-/* line 131, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 h1,
 h2,
 h3,
@@ -726,28 +638,25 @@ h5,
 h6 {
   margin: 0; }
 
-/* line 140, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 p,
 ol li,
 ul li {
   margin-top: 0;
   margin-bottom: 1em; }
 
-/* line 147, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 ::-moz-selection {
   background: var(--color-accent-link);
   color: var(--color-off-white); }
+
 ::selection {
   background: var(--color-accent-link);
   color: var(--color-off-white); }
 
-/* line 153, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .t-view {
   font-family: var(--font-slab);
   font-size: var(--text-xxl);
   font-weight: var(--font-weight-heavy); }
 
-/* line 159, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .t-cs-opening,
 .t-cs-closing {
   font-family: var(--font-slab);
@@ -755,18 +664,15 @@ ul li {
   font-style: italic;
   font-weight: var(--font-weight-light); }
 
-/* line 167, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .t-caption {
   font-family: var(--font-slab);
   font-size: var(--text-sm);
   font-style: italic;
   font-weight: var(--font-weight-light); }
 
-/* line 174, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/common/_typography.scss */
 .t-cs-sub-subtitle {
   font-weight: var(--font-weight-light); }
 
-/* line 1, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_buttons.scss */
 .button {
   padding: 2rem;
   font-family: var(--font-slab);
@@ -779,27 +685,21 @@ ul li {
   background-color: var(--percent-20);
   border: none;
   border-radius: 3px; }
-  /* line 17, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_buttons.scss */
   .button:focus, .button:hover {
     background-color: var(--color-accent-link); }
-  /* line 22, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_buttons.scss */
   .button:focus {
     outline: none;
     box-shadow: 0 0 0 3px var(--color-accent-link-light); }
 
-/* line 28, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_buttons.scss */
 .button--small {
   padding: 1rem;
   font-size: 1em; }
 
-/* line 1, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_forms.scss */
 .contact-form {
   padding-top: 1rem; }
-  /* line 4, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_forms.scss */
   .contact-form label {
     margin-bottom: 1em;
     display: block; }
-  /* line 11, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_forms.scss */
   .contact-form input,
   .contact-form textarea {
     padding-left: 1em;
@@ -808,48 +708,38 @@ ul li {
     border: none;
     border-bottom: 1px solid var(--color-accent-link);
     line-height: var(--line-height-xl); }
-  /* line 21, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_forms.scss */
   .contact-form .button {
     margin: 2rem 0;
     width: 100%; }
 
-/* line 2, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_links.scss */
 .inline-link {
   text-decoration: none;
   color: var(--color-accent-link); }
-  /* line 6, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_links.scss */
   .inline-link:focus, .inline-link:hover {
     color: var(--color-off-white);
     background-color: var(--color-body-text); }
-  /* line 12, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_links.scss */
   .inline-link:focus {
     outline: none; }
 
-/* line 17, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_links.scss */
 .social__link {
   padding: .5rem;
   display: inline-block;
   text-decoration: none; }
-  /* line 23, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_links.scss */
   .social__link .social-icon {
     width: 2.5rem;
     height: 2.5rem;
     fill: var(--percent-20);
     background-color: var(--color-light);
     transition: none; }
-    /* line 30, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_links.scss */
     .social__link .social-icon:focus, .social__link .social-icon:hover {
       fill: var(--color-accent-link); }
 
-/* line 38, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/components/_links.scss */
 .social__link:focus .social-icon {
   fill: var(--color-accent-link); }
 
-/* line 1, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_layout.scss */
 .l-container {
   overflow: hidden; }
 
-/* line 5, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_layout.scss */
 .l-container--base {
   --pad-hz: 2rem;
   margin-right: auto;
@@ -857,11 +747,9 @@ ul li {
   padding-right: var(--pad-hz);
   padding-left: var(--pad-hz); }
 
-/* line 13, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_layout.scss */
 .l-container--accent {
   border-bottom: var(--border-thick); }
 
-/* line 2, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu__toggler {
   height: 3rem;
   width: 4.5rem;
@@ -876,7 +764,6 @@ ul li {
   background: var(--color-off-black);
   border: none; }
 
-/* line 17, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu__toggler span,
 .menu__toggler span::before,
 .menu__toggler span::after {
@@ -888,34 +775,27 @@ ul li {
   background-color: var(--color-off-white);
   transition: 500ms cubic-bezier(0.77, 0, 0.175, 1); }
 
-/* line 29, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu__toggler span::before {
   top: -8px;
   left: 0; }
 
-/* line 34, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu__toggler span::after {
   top: 8px;
   left: 0; }
 
-/* line 39, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu__toggler.active > span {
   background: transparent; }
 
-/* line 43, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu__toggler.active > span::before, .menu__toggler.active > span::after {
   background-color: var(--color-off-white);
   top: 0; }
 
-/* line 48, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu__toggler.active > span::before {
   transform: rotate(-225deg); }
 
-/* line 52, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu__toggler.active > span::after {
   transform: rotate(225deg); }
 
-/* line 57, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu {
   width: auto;
   height: 100%;
@@ -928,11 +808,9 @@ ul li {
   background-color: transparent;
   transform: skew(-11deg); }
 
-/* line 70, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu.active {
   left: 1.5rem; }
 
-/* line 74, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu__link {
   padding: 1rem 3rem;
   border-bottom: 3px solid var(--white);
@@ -944,21 +822,16 @@ ul li {
   color: white;
   text-decoration: none;
   background: var(--color-off-black); }
-  /* line 86, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
   .menu__link:last-child {
     border-bottom: none; }
-  /* line 90, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
   .menu__link > span {
     display: inline-block;
     transform: skew(11deg); }
-  /* line 96, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
   .menu__link:hover, .menu__link:focus {
     background-color: var(--color-accent); }
-  /* line 101, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
   .menu__link:focus {
     outline: none; }
 
-/* line 107, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu-wrap {
   padding-right: 1.7rem;
   position: -webkit-sticky;
@@ -966,20 +839,16 @@ ul li {
   top: 0;
   z-index: var(--z-nav); }
 
-/* line 114, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
 .menu-local {
   display: flex;
   justify-content: flex-end;
   transform: skew(-11deg); }
-  /* line 119, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
   .menu-local .menu__link {
     border-right: 3px solid var(--white);
     border-bottom: none; }
-    /* line 123, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_nav.scss */
     .menu-local .menu__link:last-child {
       border-right: none; }
 
-/* line 1, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
 .hero-wrap {
   width: 100vw;
   height: 100vh;
@@ -988,37 +857,30 @@ ul li {
   overflow: hidden;
   border-bottom: var(--border-thick); }
 
-/* line 11, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
 .name {
   color: var(--color-off-black); }
 
-/* line 15, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
 .name-segment {
   position: absolute;
   font-family: var(--font-body);
   font-weight: var(--font-weight-bold); }
 
-/* line 21, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
 .name-segment--first {
   top: -0.325em;
   left: -0.05em; }
 
-/* line 26, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
 .name-segment--last {
   bottom: -0.1675em;
   right: -0.05em; }
 
-/* line 31, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
 .title {
   display: inline-flex;
   position: relative;
   color: var(--color-off-black);
   transform: skew(-11deg); }
   @media (max-width: 419px) {
-    /* line 39, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
     .title.t-xl {
       font-size: 20px; } }
-/* line 45, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
 .title-wrap {
   width: 100%;
   height: 80%;
@@ -1026,13 +888,11 @@ ul li {
   justify-content: center;
   align-items: center; }
 
-/* line 53, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
 .title-segment {
   padding: 0.5em;
   display: inline;
   transform: skew(11deg); }
 
-/* line 59, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
 .title-segment--one {
   --top: 0.265em;
   padding-right: 0.75em;
@@ -1043,18 +903,14 @@ ul li {
   font-style: italic;
   color: var(--color-off-black); }
   @media (min-width: 760px) and (max-width: 999px) {
-    /* line 59, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
     .title-segment--one {
       --top: 0.2em; } }
   @media (min-width: 1000px) and (max-width: 1439px) {
-    /* line 59, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
     .title-segment--one {
       --top: 0.225em; } }
   @media (min-width: 1440px) {
-    /* line 59, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
     .title-segment--one {
       --top: 0.25em; } }
-  /* line 82, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
   .title-segment--one::before {
     content: "";
     position: absolute;
@@ -1066,18 +922,15 @@ ul li {
     background: white;
     transform: skew(-11deg); }
     @media (min-width: 1000px) and (max-width: 1439px) {
-      /* line 82, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
       .title-segment--one::before {
         top: -0.225em;
         right: 0;
         bottom: 0.225em; } }
     @media (min-width: 1440px) {
-      /* line 82, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
       .title-segment--one::before {
         top: -0.25em;
         right: 0;
         bottom: 0.25em; } }
-  /* line 106, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
   .title-segment--one::after {
     --width: 3px;
     content: "";
@@ -1091,10 +944,8 @@ ul li {
     background-color: var(--color-accent);
     transform: skew(-11deg); }
     @media (min-width: 1000px) {
-      /* line 106, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
       .title-segment--one::after {
         --width: 5px; } }
-/* line 125, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
 .title-segment--two {
   padding-right: 0.225em;
   padding-left: 0.25em;
@@ -1103,7 +954,6 @@ ul li {
   font-size: calc(100% * 1.25);
   color: var(--color-off-white);
   background-color: var(--color-off-black); }
-  /* line 134, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
   .title-segment--two::before, .title-segment--two::after {
     content: "";
     /* There's a tiny little gap showing at some breakpoints, even after resizing this to a fraction less than 100%. Seems to be a Chrome bug. */
@@ -1114,22 +964,18 @@ ul li {
     position: absolute;
     background: var(--color-off-black);
     transform: skew(-11deg); }
-  /* line 147, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
   .title-segment--two::before {
     top: 0;
     left: -0.25em; }
-  /* line 152, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_hero.scss */
   .title-segment--two::after {
     top: 0;
     right: -0.25em; }
 
-/* line 1, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
 .skew-wrap {
   margin-right: auto;
   margin-left: auto;
   position: relative;
   overflow: hidden; }
-  /* line 8, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
   .skew-wrap:after {
     --left: 50px;
     --width: 3px;
@@ -1144,15 +990,12 @@ ul li {
     background-color: var(--color-accent);
     transform: skew(-11deg); }
     @media (min-width: 1000px) {
-      /* line 8, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
       .skew-wrap:after {
         --width: 5px;
         --left: 80px; } }
-/* line 29, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
 .skew-wrap--about {
   max-width: 1000px; }
 
-/* line 33, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
 .skew-head {
   --top: -1rem;
   --left: 1rem;
@@ -1164,11 +1007,9 @@ ul li {
   color: var(--color-off-black);
   text-shadow: -1px -1px 0 var(--color-body-bg), 1px -1px 0 var(--color-body-bg), -1px 1px 0 var(--color-body-bg), 1px 1px 0 var(--color-body-bg); }
   @media (min-width: 510px) {
-    /* line 33, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-head {
       --top: 1rem;
       --left: 2rem; } }
-/* line 56, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
 .polygon-11 {
   position: absolute;
   width: 300px;
@@ -1178,7 +1019,6 @@ ul li {
   opacity: .5;
   display: none; }
 
-/* line 67, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
 .skew-lead {
   --width: 450px;
   --height: 750px;
@@ -1192,18 +1032,15 @@ ul li {
           clip-path: polygon(0 0, 100% 0%, 68.5% 100%, 0% 100%);
   shape-outside: polygon(0 0, 100% 0%, 68.5% 100%, 0% 100%); }
   @media (min-width: 510px) and (max-width: 1399px) {
-    /* line 67, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-lead {
       --width: 300px;
       --height: 500px;
       --left: -100px; } }
   @media (min-width: 1400px) {
-    /* line 67, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-lead {
       --width: 360px;
       --height: 600px;
       --left: -200px; } }
-/* line 92, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
 .skew-follow {
   --width: calc(95vw + 310px);
   --left: -310px;
@@ -1211,30 +1048,24 @@ ul li {
   position: relative;
   left: var(--left); }
   @media (min-width: 510px) and (max-width: 999px) {
-    /* line 92, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-follow {
       --width: calc(95vw + 170px);
       --left: -170px; } }
   @media (min-width: 1000px) and (max-width: 1399px) {
-    /* line 92, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-follow {
       --width: 1100px;
       --left: -120px; } }
   @media (min-width: 1400px) {
-    /* line 92, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-follow {
       --width: 1100px;
       --left: -170px; } }
-/* line 115, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
 .skew-follow--about {
   --pad-vt: 4.5rem;
   padding-top: var(--pad-vt);
   padding-bottom: var(--pad-vt); }
   @media (min-width: 510px) {
-    /* line 115, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_skew.scss */
     .skew-follow--about {
       --pad-vt: 7rem; } }
-/* line 2, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .work-wrap {
   --pad-top: 4.5rem;
   --pad-bottom: 4rem;
@@ -1247,10 +1078,8 @@ ul li {
   padding-left: var(--pad-hz);
   position: relative; }
   @media (min-width: 510px) {
-    /* line 2, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-wrap {
       --pad-top: 7.5rem; } }
-  /* line 18, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-wrap:before {
     content: "";
     display: block;
@@ -1263,19 +1092,15 @@ ul li {
     background-color: var(--color-accent);
     transform: skew(-11deg); }
     @media (min-width: 1000px) {
-      /* line 18, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
       .work-wrap:before {
         width: 5px; } }
-/* line 38, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .work-wrap {
   --pad-top: 6rem;
   max-width: 1600px; }
   @media (min-width: 700px) {
-    /* line 38, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-wrap {
       --pad-top: 0;
       --pad-bottom: 0; } }
-/* line 48, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .work-grid {
   --grid-gap: 1rem;
   display: grid;
@@ -1284,60 +1109,45 @@ ul li {
   position: relative;
   z-index: var(--z-high); }
   @media (min-width: 700px) {
-    /* line 48, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-grid {
       grid-template-areas: ". . dockyard dockyard dockyard . ." ". . dockyard dockyard dockyard fff fff" "kolcraft kolcraft kolcraft kolcraft . fff fff" "kolcraft kolcraft kolcraft kolcraft wt-style-tiles wt-style-tiles ." ". . . . wt-style-tiles wt-style-tiles ." "cs-home cs-home cs-business cs-business wt-style-tiles wt-style-tiles ." "cs-home cs-home cs-business cs-business . es es" ". cs-marketplace cs-marketplace cs-marketplace cs-marketplace es es" ". cs-marketplace cs-marketplace cs-marketplace cs-marketplace . ." "wt-user-flows wt-user-flows wt-user-flows . . . ." "wt-user-flows wt-user-flows wt-user-flows wt-mockups wt-mockups wt-mockups ." ". . . wt-mockups wt-mockups wt-mockups ."; } }
   @media (min-width: 1440px) {
-    /* line 48, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-grid {
       --grid-gap: 3rem; } }
-/* line 87, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .dockyard {
   grid-area: dockyard; }
   @media (min-width: 700px) {
-    /* line 90, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .dockyard.work-item {
       border-top: none; } }
-/* line 99, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .kolcraft {
   grid-area: kolcraft; }
 
-/* line 103, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .es {
   grid-area: es; }
 
-/* line 107, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .fff {
   grid-area: fff; }
 
-/* line 111, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .wt-style-tiles {
   grid-area: wt-style-tiles; }
 
-/* line 114, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .wt-user-flows {
   grid-area: wt-user-flows; }
 
-/* line 117, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .wt-mockups {
   grid-area: wt-mockups; }
   @media (min-width: 700px) {
-    /* line 120, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .wt-mockups.work-item {
       border-bottom: none; } }
-/* line 129, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .cs-home {
   grid-area: cs-home; }
 
-/* line 132, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .cs-business {
   grid-area: cs-business; }
 
-/* line 135, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .cs-marketplace {
   grid-area: cs-marketplace; }
 
-/* line 139, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .work-item {
   --pad-edge: .5rem;
   --min-height: 8rem;
@@ -1354,7 +1164,6 @@ ul li {
   border-right: var(--border-width) solid var(--percent-20);
   border-bottom: 1px solid var(--color-accent);
   border-left: 1px solid var(--color-accent); }
-  /* line 156, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item .link-rotate {
     display: inline-block;
     position: absolute;
@@ -1364,29 +1173,22 @@ ul li {
     color: var(--color-accent-link-light);
     transform: rotate(-90deg); }
   @media (min-width: 1000px) and (max-width: 1439px) {
-    /* line 139, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-item {
       --min-height: 16rem;
       --border-width: 2rem; } }
   @media (min-width: 1440px) {
-    /* line 139, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-item {
       --min-height: 24rem;
       --border-width: 2.5rem; } }
-  /* line 177, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item:focus-within, .work-item:hover {
     cursor: pointer;
     border-right: var(--border-width) solid var(--color-accent-link-light); }
-    /* line 182, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-item:focus-within .case-study, .work-item:hover .case-study {
       color: var(--color-accent-link); }
-    /* line 186, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
     .work-item:focus-within .link-rotate, .work-item:hover .link-rotate {
       color: var(--color-body-text); }
-  /* line 191, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item:focus-within {
     outline: 4px solid var(--color-body-text); }
-  /* line 195, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item::before {
     content: "";
     width: 100%;
@@ -1398,7 +1200,6 @@ ul li {
     -webkit-filter: grayscale(100%);
             filter: grayscale(100%);
     z-index: var(--z-minus); }
-  /* line 207, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item::after {
     content: "";
     width: 100%;
@@ -1408,41 +1209,30 @@ ul li {
     position: absolute;
     background: linear-gradient(white, rgba(255, 255, 255, 0.35));
     z-index: var(--z-minus); }
-  /* line 218, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.dockyard::before {
     background-image: url("../images/dy_home_grab.png");
     background-size: cover;
     background-repeat: no-repeat; }
-  /* line 224, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.kolcraft::before {
     background-image: url("../images/kolcraft_crib.jpg"); }
-  /* line 227, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.es::before {
     background-image: url("../images/es_web.jpg"); }
-  /* line 230, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.fff::before {
     background-image: url("../images/fff_grab.jpg");
     background-position: center center; }
-  /* line 234, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.wt-style-tiles::before {
     background-image: url("../images/wt_style_grab.jpg"); }
-  /* line 237, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.wt-user-flows::before {
     background-image: url("../images/wt_user_flow.png"); }
-  /* line 240, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.wt-mockups::before {
     background-image: url("../images/wt_mockups_grab.jpg"); }
-  /* line 243, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.cs-home::before {
     background-image: url("../images/cs_home_sketch_grab.jpg"); }
-  /* line 246, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.cs-business::before {
     background-image: url("../images/cs_business_sketch_grab.jpg"); }
-  /* line 249, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item.cs-marketplace::before {
     background-image: url("../images/cs_marketplace_sketch_grab.jpg"); }
 
-/* line 254, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .work-item__link {
   width: 100%;
   height: 100%;
@@ -1450,55 +1240,43 @@ ul li {
   top: 0;
   left: 0;
   display: block; }
-  /* line 262, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
   .work-item__link:focus {
     outline: none; }
 
-/* line 267, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .work-item__title {
   margin-bottom: .25em; }
 
-/* line 271, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_work.scss */
 .case-study {
   font-size: var(--text-md);
   line-height: var(--line-height-xs); }
 
-/* line 4, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .cs-header {
   overflow: hidden; }
-  /* line 7, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
   .cs-header .middle {
     display: block; }
-  /* line 11, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
   .cs-header .opening,
   .cs-header .middle,
   .cs-header .closing {
     padding: .5em 2rem; }
-  /* line 17, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
   .cs-header .opening,
   .cs-header .closing {
     background: linear-gradient(to left, var(--color-light), var(--color-off-black));
     color: var(--white); }
-  /* line 23, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
   .cs-header .opening {
     -webkit-animation: 1s ease-out .5s 1 slideInFromLeft;
             animation: 1s ease-out .5s 1 slideInFromLeft; }
-  /* line 27, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
   .cs-header .closing {
     -webkit-animation: 1s ease-out .5s 1 slideInFromRight;
             animation: 1s ease-out .5s 1 slideInFromRight; }
 
-/* line 32, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .cs-header__title,
 .cs__subtitle {
   color: var(--color-accent-link); }
 
-/* line 37, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .cs__subtitle,
 .cs__sub-subtitle {
   margin-bottom: .75em; }
 
-/* line 42, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .cs-main {
   --pad-vt: 3rem;
   --pad-hz: 2rem;
@@ -1507,18 +1285,14 @@ ul li {
   overflow: hidden;
   border-bottom: var(--border-thick); }
   @media (min-width: 760px) {
-    /* line 42, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
     .cs-main {
       --pad-vt: 5rem; } }
-/* line 55, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .cs__rule {
   --margin-bottom: 2rem;
   margin-bottom: var(--margin-bottom); }
   @media (min-width: 760px) {
-    /* line 55, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
     .cs__rule {
       --margin-bottom: 3rem; } }
-/* line 64, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .artifact {
   --margin-bottom: 1rem;
   --grid-gap: 1rem;
@@ -1528,45 +1302,34 @@ ul li {
   grid-gap: var(--grid-gap);
   align-items: start; }
   @media (min-width: 760px) {
-    /* line 64, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
     .artifact {
       --margin-bottom: 3rem; } }
-/* line 78, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .artifact__figure {
   margin: 0 0 2rem; }
 
-/* line 82, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .artifact__img {
   margin-bottom: 1rem; }
 
-/* line 87, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .artifact--cs-before {
   --grid-gap: 2rem;
   display: grid;
   grid-template-areas: "figure" "section-1" "section-2";
   grid-gap: var(--grid-gap); }
-  /* line 96, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
   .artifact--cs-before .artifact__figure {
     margin-bottom: 1rem; }
   @media (min-width: 1000px) {
-    /* line 87, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
     .artifact--cs-before {
       --grid-gap: 3rem;
       grid-template-areas: "figure section-1" "section-2 section-2"; } }
-  /* line 107, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
   .artifact--cs-before figure {
     grid-area: figure; }
-  /* line 111, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
   .artifact--cs-before .section-wrap--one {
     grid-area: section-1; }
-  /* line 115, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
   .artifact--cs-before .section-wrap--two {
     grid-area: section-2; }
     @media (max-width: 759px) {
-      /* line 115, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
       .artifact--cs-before .section-wrap--two {
         margin-bottom: 1rem; } }
-/* line 125, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .artifact--wt-before {
   --margin-bottom: 3rem;
   --grid-gap: 2rem;
@@ -1576,33 +1339,26 @@ ul li {
   grid-template-rows: auto;
   grid-gap: var(--grid-gap); }
   @media (min-width: 760px) {
-    /* line 125, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
     .artifact--wt-before {
       --margin-bottom: 5rem;
       --grid-gap: 3rem;
       grid-template-columns: [left-edge] minmax(auto, 500px) [center] minmax(50%, 1fr) [right-edge]; }
-      /* line 139, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
       .artifact--wt-before .artifact__figure {
         margin-bottom: 0; } }
-/* line 145, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .artifact--wt-hifi-mocks {
   grid-template-columns: 1;
   grid-template-areas: "first" "second" "third"; }
   @media (min-width: 1000px) {
-    /* line 145, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
     .artifact--wt-hifi-mocks {
       --grid-gap: 2rem;
       grid-template-columns: 2;
       grid-template-areas: "first first" "second third"; } }
-/* line 161, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .figure--first {
   grid-area: first; }
 
-/* line 164, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .figure--second {
   grid-area: second; }
 
-/* line 167, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_case_study.scss */
 .figure--third {
   grid-area: third; }
 
@@ -1638,7 +1394,6 @@ ul li {
     transform: translateX(0);
     opacity: 1; } }
 
-/* line 2, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
 .footer-content-wrap {
   --pad-top: 4.5rem;
   --pad-bottom: 4rem;
@@ -1651,10 +1406,8 @@ ul li {
   padding-left: var(--pad-hz);
   position: relative; }
   @media (min-width: 510px) {
-    /* line 2, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
     .footer-content-wrap {
       --pad-top: 7.5rem; } }
-  /* line 18, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
   .footer-content-wrap:before {
     content: "";
     display: block;
@@ -1667,10 +1420,8 @@ ul li {
     background-color: var(--color-accent);
     transform: skew(-11deg); }
     @media (min-width: 1000px) {
-      /* line 18, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
       .footer-content-wrap:before {
         width: 5px; } }
-/* line 37, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
 .contact-wrap {
   --pad: 1rem;
   margin-right: auto;
@@ -1682,14 +1433,11 @@ ul li {
   border-radius: 3px;
   z-index: var(--z-plus); }
   @media (min-width: 760px) {
-    /* line 37, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
     .contact-wrap {
       --pad: 2rem; } }
-/* line 53, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
 .antispam {
   display: none; }
 
-/* line 57, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
 .social-wrap {
   --margin-top: 4rem;
   margin-top: var(--margin-top);
@@ -1699,10 +1447,8 @@ ul li {
   position: relative;
   z-index: var(--z-plus); }
   @media (min-width: 1000px) {
-    /* line 57, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
     .social-wrap {
       --margin-top: 6rem; } }
-/* line 71, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
 .socials {
   margin: 0;
   margin-bottom: 2rem;
@@ -1711,11 +1457,9 @@ ul li {
   justify-content: space-between;
   list-style-type: none; }
 
-/* line 81, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
 .social {
   margin: 0; }
 
-/* line 86, Users/catherineazzarello/Sites/azzcatdesign_2020/2020_site/source/styles/layout/_footer.scss */
 .colophon-wrap {
   padding: 0 0 2rem; }
 /*# sourceMappingURL=main.css.map */
