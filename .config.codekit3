@@ -474,6 +474,19 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/source/images/sci_rfi_clar_admin.png": {
+		"ft": 32768,
+		"iS": 270495,
+		"oA": 0,
+		"oAP": "/dist/images/sci_rfi_clar_admin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/source/images/skew.svg": {
 		"ft": 2097152,
 		"miP": 0,
