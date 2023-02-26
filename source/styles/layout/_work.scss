@@ -1,20 +1,19 @@
 // Note: can't use the 'skew-wrap' code here, because we need a couple container classes, and the skew line gets cut off with that. 
 .work-wrap {  
-  --pad-top: 4.5rem;
-  --pad-bottom: 4rem;
-  --pad-hz: 2rem;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: var(--pad-top);
-  padding-right: var(--pad-hz);
-  padding-bottom: var(--pad-bottom);
-  padding-left: var(--pad-hz);
+  --pad-block-start: 4.5rem;
+  --pad-block-end: 4rem;
+  --pad-inline: 2rem;
+
+  margin-inline: auto;
+  padding-block-start: var(--pad-block-start);
+  padding-block-end: var(--pad-block-end);
+  padding-inline: var(--pad-inline);
   position: relative;  
-    
+
   @media (min-width: 510px) {
-    --pad-top: 7.5rem;
+    --pad-block-start: 7.5rem;
   }
-  
+
   &:before {
     content: "";
     display: block;
@@ -24,10 +23,10 @@
     top: 0;
     left: 50px;
     z-index: var(--z-normal);
-    
+
     background-color: var(--color-accent);
     transform: skew(-11deg);
-    
+
     @media (min-width: 1000px) {
       width: 5px;
     }
@@ -36,20 +35,23 @@
 
 // let's have grid butt up against thick black rule
 .work-wrap {
-  --pad-top: 6rem;
+  --pad-block-start: 6rem;
+
   max-width: 1600px;
 
   @media (min-width: 700px) {
-    --pad-top: 0;
-    --pad-bottom: 0;   
-  }  
+    --pad-block-start: 0;
+    --pad-block-end: 0;
+  }
 }
 
 .work-grid {
   --grid-gap: 1rem;
+
   display: grid;
-  grid-gap: var(--grid-gap);
-  grid-template-areas: 
+  gap: var(--grid-gap);
+  grid-template-areas:
+    "scientist"
     "dockyard"
     "kolcraft"
     "fff"
@@ -59,7 +61,7 @@
     "cs-marketplace"
     "es"
     "wt-user-flows"
-    "wt-mockups";  
+    "wt-mockups";
   position: relative;
   z-index: var(--z-high);
 
@@ -69,7 +71,7 @@
     ". . dockyard dockyard dockyard fff fff"
     "kolcraft kolcraft kolcraft kolcraft . fff fff"
     "kolcraft kolcraft kolcraft kolcraft wt-style-tiles wt-style-tiles ."
-    ". . . . wt-style-tiles wt-style-tiles ."
+    "cs-home cs-home cs-business cs-business wt-style-tiles wt-style-tiles ."
     "cs-home cs-home cs-business cs-business wt-style-tiles wt-style-tiles ."
     "cs-home cs-home cs-business cs-business . es es"
     ". cs-marketplace cs-marketplace cs-marketplace cs-marketplace es es"
@@ -82,6 +84,18 @@
   @media (min-width: 1440px) {
     --grid-gap: 3rem;
   } 
+}
+
+.scientist {
+  grid-area: scientist;
+
+  &.work-item {
+
+    // no top border when butting up against thick black rule
+    @media (min-width: 700px) {
+      border-top: none;
+    }
+  }
 }
 
 .dockyard {
@@ -141,9 +155,9 @@
   --min-height: 8rem;
   --right: .95em;
   --border-width: 1rem;
-  padding-top: var(--pad-edge);
-  padding-right: var(--pad-edge);
-  padding-left: var(--pad-edge);
+
+  padding-block-start: var(--pad-edge);
+  padding-inline: var(--pad-edge);
   min-height: var(--min-height);
   position: relative;
   z-index: var(--z-normal);
@@ -185,7 +199,7 @@
 
     .link-rotate {
       color: var(--color-body-text);
-    }     
+    }
   }
 
   &:focus-within {
@@ -215,39 +229,53 @@
     z-index: var(--z-minus);
   }
 
+  &.cs-home::before {
+    background-image: url("../images/cs_home_sketch_grab.jpg");
+  }
+
+  &.cs-business::before {
+    background-image: url("../images/cs_business_sketch_grab.jpg");
+  }
+
+  &.cs-marketplace::before {
+    background-image: url("../images/cs_marketplace_sketch_grab.jpg");
+  }
+
   &.dockyard::before {
     background-image: url("../images/dy_home_grab.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  &.kolcraft::before {
-    background-image: url("../images/kolcraft_crib.jpg");
-  }
   &.es::before {
     background-image: url("../images/es_web.jpg");
   }
+
   &.fff::before {
     background-image: url("../images/fff_grab.jpg");
     background-position: center center;
   }
+
+  &.kolcraft::before {
+    background-image: url("../images/kolcraft_crib.jpg");
+  }
+
+  &.scientist::before {
+    background-image: url("../images/sci_rfi_clar_admin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   &.wt-style-tiles::before {
     background-image: url("../images/wt_style_grab.jpg");
   }
+
   &.wt-user-flows::before {
     background-image: url("../images/wt_user_flow.png");
   }
+
   &.wt-mockups::before {
     background-image: url("../images/wt_mockups_grab.jpg");
-  }
-  &.cs-home::before {
-    background-image: url("../images/cs_home_sketch_grab.jpg");
-  }
-  &.cs-business::before {
-    background-image: url("../images/cs_business_sketch_grab.jpg");
-  }
-  &.cs-marketplace::before {
-    background-image: url("../images/cs_marketplace_sketch_grab.jpg");
   }
 }
 
